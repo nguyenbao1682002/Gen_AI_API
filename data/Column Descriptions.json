@@ -1,0 +1,3947 @@
+[
+  {
+    "tag": "FactoryId_Date",
+    "description-vn": "Mã nhà máy kết hợp với ngày",
+    "description-en": "Factory code combined with date",
+    "type": "string"
+  },
+  {
+    "tag": "Time",
+    "description-vn": "Thời điểm ghi nhận dữ liệu",
+    "description-en": "Timestamp of data recording",
+    "type": "datetime"
+  },
+  {
+    "tag": "_4C1BE01DRV01_M2001.Current.Value",
+    "description-vn": "Dòng điện của động cơ 4C1BE01DRV01",
+    "description-en": "Current of motor 4C1BE01DRV01",
+    "type": "float"
+  },
+  {
+    "tag": "_4C1BE01DRV02_M2001.Current.Value",
+    "description-vn": "Dòng điện của động cơ 4C1BE01DRV02",
+    "description-en": "Current of motor 4C1BE01DRV02",
+    "type": "float"
+  },
+  {
+    "tag": "_G1PJ01MCH02T8201_TIA_IO_Signal_Value",
+    "description-vn": "Nhiệt độ vật liệu tại tháp Silo trước khi vào buồng đốt, kiểm tra nếu bám dính hoặc đo sai",
+    "description-en": "Material temperature at Silo tower before combustion chamber, check for sticking or measurement errors",
+    "type": "float"
+  },
+  {
+    "tag": "_L72BW01_W01",
+    "description-vn": "Khối lượng nguyên liệu thô, giảm 5-10 tấn nếu tuyến NLTT có vấn đề",
+    "description-en": "Raw material mass, reduce 5-10 tons if raw material feed line has issues",
+    "type": "float"
+  },
+  {
+    "tag": "41KP01DRV01_SP",
+    "description-vn": "Giá trị trung bình điểm đặt tốc độ động cơ 41KP01DRV01",
+    "description-en": "Average setpoint speed of motor 41KP01DRV01",
+    "type": "float"
+  },
+  {
+    "tag": "4C1BE01DRV01_M2001_I",
+    "description-vn": "Dòng điện đo được của động cơ 4C1BE01DRV01",
+    "description-en": "Measured current of motor 4C1BE01DRV01",
+    "type": "float"
+  },
+  {
+    "tag": "4C1BF01FNJ01_M2001_I",
+    "description-vn": "Dòng điện quạt 4C1BF01FNJ01, kiểm tra ống hút lọc bụi và van màn lọc bụi tại Rawmeal Silo",
+    "description-en": "Current of fan 4C1BF01FNJ01, check dust filter suction pipe and valve at Rawmeal Silo",
+    "type": "float"
+  },
+  {
+    "tag": "4C1CD01XCC01_Binfilling",
+    "description-vn": "Mức độ đầy bin trung tâm, giảm công suất lò nếu tụt bin",
+    "description-en": "Central bin filling level, reduce kiln capacity if bin level drops",
+    "type": "float"
+  },
+  {
+    "tag": "4C1DD02DDJ01_M5501_MV",
+    "description-vn": "Giá trị điều khiển (MV) của thiết bị M5501",
+    "description-en": "Control value (MV) of device M5501",
+    "type": "float"
+  },
+  {
+    "tag": "4E1FN01TVJ01_PID_MV",
+    "description-vn": "Giá trị điều khiển (MV) của bộ điều khiển PID cho thiết bị TVJ01",
+    "description-en": "Control value (MV) of PID controller for device TVJ01",
+    "type": "float"
+  },
+  {
+    "tag": "4E1GP01JST00_B5002",
+    "description-vn": "Thông số vận hành B5002 của hệ thống JST00",
+    "description-en": "Operating parameter B5002 of system JST00",
+    "type": "float"
+  },
+  {
+    "tag": "4E1GP01JST00_T8202",
+    "description-vn": "Nhiệt độ sau quạt ID, mở gió tươi hoặc giảm nhiệt tháp nếu cao",
+    "description-en": "Temperature after ID fan, open fresh air or reduce tower temperature if high",
+    "type": "float"
+  },
+  {
+    "tag": "4G1FN01DRV01_M1001_SI",
+    "description-vn": "Giá trị trung bình tín hiệu tốc độ (SI) của động cơ DRV01",
+    "description-en": "Average speed signal (SI) of motor DRV01",
+    "type": "float"
+  },
+  {
+    "tag": "4G1FN01MMS01_T9601",
+    "description-vn": "Nhiệt độ quạt ID, kiểm tra rung động nếu cao",
+    "description-en": "ID fan temperature, check for vibration if high",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA01XAC01_CO",
+    "description-vn": "Nồng độ khí CO ở đầu lò, cần thận trọng nếu cao",
+    "description-en": "CO concentration at kiln inlet, caution if high",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA01XAC01_NO",
+    "description-vn": "Nồng độ khí NOx trung bình ở đầu lò",
+    "description-en": "Average NOx concentration at kiln inlet",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA01XAC01_O2",
+    "description-vn": "Nồng độ khí O2 trung bình ở đầu lò",
+    "description-en": "Average O2 concentration at kiln inlet",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA02XAC01_A0901",
+    "description-vn": "Thông số phân tích khí tại khu vực sau cyclon tầng 2 phía silo, cần thận trọng nếu CO cao",
+    "description-en": "Gas analysis parameter after cyclone stage 2 (silo side), caution if CO is high",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA02XAC01_O2",
+    "description-vn": "Nồng độ khí O2 trung bình sau cyclon tầng 2 phía silo, nguy cơ thiếu gió nếu thấp",
+    "description-en": "Average O2 concentration after cyclone stage 2 (silo side), risk of insufficient air if low",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA03XAC01_A0901",
+    "description-vn": "Thông số phân tích khí tại khu vực sau cyclon tầng 2 phía CCR, cần thận trọng nếu CO cao",
+    "description-en": "Gas analysis parameter after cyclone stage 2 (CCR side), caution if CO is high",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA03XAC01_O2",
+    "description-vn": "Nồng độ khí O2 trung bình sau cyclon tầng 2 phía CCR, nguy cơ thiếu gió nếu thấp",
+    "description-en": "Average O2 concentration after cyclone stage 2 (CCR side), risk of insufficient air if low",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA04XAC01_A0901",
+    "description-vn": "Thông số phân tích khí tại khu vực sau tháp trao đổi nhiệt, cần thận trọng nếu CO cao",
+    "description-en": "Gas analysis parameter after heat exchange tower, caution if CO is high",
+    "type": "float"
+  },
+  {
+    "tag": "4G1GA04XAC01_O2",
+    "description-vn": "Nồng độ khí O2 sau tháp trao đổi nhiệt, nguy cơ thiếu gió nếu thấp",
+    "description-en": "O2 concentration after heat exchange tower, risk of insufficient air if low",
+    "type": "float"
+  },
+  {
+    "tag": "4G1KJ01JST00_B5001",
+    "description-vn": "Thông số vận hành đầu lò, vệ sinh trám nếu cần",
+    "description-en": "Kiln inlet operating parameter, clean coating if needed",
+    "type": "float"
+  },
+  {
+    "tag": "4G1KJ01JST00_T8401",
+    "description-vn": "Nhiệt độ trung bình đầu lò, kiểm tra nếu đo sai",
+    "description-en": "Average temperature at kiln inlet, check if measurement is incorrect",
+    "type": "float"
+  },
+  {
+    "tag": "4G1PS01GPJ01_T8201I",
+    "description-vn": "Nhiệt độ outlet cyclon C1, giảm nhiệt tháp nếu bám dính hoặc kiểm tra nếu đo sai",
+    "description-en": "Cyclone C1 outlet temperature, reduce tower temperature if sticking or check if measurement is incorrect",
+    "type": "float"
+  },
+  {
+    "tag": "4G1PS01GPJ02_T8201",
+    "description-vn": "Nhiệt độ trung bình tại cảm biến T8201 khu vực cyclon C1",
+    "description-en": "Average temperature at sensor T8201 in cyclone C1 area",
+    "type": "float"
+  },
+  {
+    "tag": "4G1PS02PGP01_T8201",
+    "description-vn": "Nhiệt độ outlet cyclon C2 phía thiết bị 1, giảm nhiệt tháp nếu bám dính hoặc vệ sinh trám mái úp đầu lò",
+    "description-en": "Cyclone C2 outlet temperature (device 1), reduce tower temperature if sticking or clean kiln inlet coating",
+    "type": "float"
+  },
+  {
+    "tag": "4G1PS02PGP02_T8201",
+    "description-vn": "Nhiệt độ outlet cyclon C2 phía thiết bị 2, giảm nhiệt tháp nếu bám dính hoặc vệ sinh trám mái úp đầu lò",
+    "description-en": "Cyclone C2 outlet temperature (device 2), reduce tower temperature if sticking or clean kiln inlet coating",
+    "type": "float"
+  },
+  {
+    "tag": "4G1PS03PGP02_T8201",
+    "description-vn": "Nhiệt độ tại cảm biến T8201 khu vực cyclon C3",
+    "description-en": "Temperature at sensor T8201 in cyclone C3 area",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01DRV01_M2001_EI",
+    "description-vn": "Tải lò trung bình (dòng điện động cơ DRV01)",
+    "description-en": "Average kiln load (current of motor DRV01)",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01DRV01_Speed",
+    "description-vn": "Tốc độ trung bình của động cơ DRV01",
+    "description-en": "Average speed of motor DRV01",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01KHE01_B5001",
+    "description-vn": "Thông số vận hành B5001 của thiết bị KHE01",
+    "description-en": "Operating parameter B5001 of device KHE01",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01KHE01_B8701",
+    "description-vn": "Nhiệt độ trung bình tại vòi đốt lò",
+    "description-en": "Average temperature at kiln burner",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST01_T8101",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST01), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST01), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST01_T8102",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST01), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST01), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST01_T8103",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST01), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST01), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST01_T8104",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST01), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST01), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST02_T8101",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST02), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST02), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST02_T8102",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST02), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST02), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST02_T8103",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST02), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST02), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4K1KP01RST02_T8104",
+    "description-vn": "Nhiệt độ nước làm mát lò nung (RST02), kiểm tra hệ thống tự lựa",
+    "description-en": "Cooling water temperature for kiln (RST02), check automatic selection system",
+    "type": "float"
+  },
+  {
+    "tag": "4R1FC02TVJ01B5101_INFS",
+    "description-vn": "Thông số ghi tĩnh cooler, kiểm tra nếu quá tải hoặc nghi ngờ hỏng",
+    "description-en": "Static grate cooler parameter, check if overloaded or suspected failure",
+    "type": "float"
+  },
+  {
+    "tag": "4R1FC06TVJ01B5101_INFS",
+    "description-vn": "Thông số ghi tĩnh cooler, kiểm tra nếu quá tải hoặc nghi ngờ hỏng",
+    "description-en": "Static grate cooler parameter, check if overloaded or suspected failure",
+    "type": "float"
+  },
+  {
+    "tag": "4R1FN01TVJ01_B5101_INFSC",
+    "description-vn": "Thông số vận hành cooler, giảm tốc độ lò nếu quá tải",
+    "description-en": "Cooler operating parameter, reduce kiln speed if overloaded",
+    "type": "float"
+  },
+  {
+    "tag": "4R1GQ01HYS01_T8101",
+    "description-vn": "Nhiệt độ thủy lực cooler, vệ sinh lọc nước làm mát nếu cao",
+    "description-en": "Cooler hydraulic temperature, clean cooling water filter if high",
+    "type": "float"
+  },
+  {
+    "tag": "4R1GQ01JNT01_T8201",
+    "description-vn": "Nhiệt độ trung bình dòng khí vào lò (Gió 2)",
+    "description-en": "Average temperature of secondary air into kiln (Air 2)",
+    "type": "float"
+  },
+  {
+    "tag": "4R1RR01EXD01_T8102",
+    "description-vn": "Nhiệt độ búa cooler, kiểm tra nếu quá cao",
+    "description-en": "Cooler hammer temperature, check if too high",
+    "type": "float"
+  },
+  {
+    "tag": "4S1FN01DRV01_M2001_EI",
+    "description-vn": "Năng lượng tiêu thụ của động cơ DRV01 (M2001)",
+    "description-en": "Energy consumption of motor DRV01 (M2001)",
+    "type": "float"
+  },
+  {
+    "tag": "4S1GP01JST00_T8104",
+    "description-vn": "Nhiệt độ tại cảm biến T8104 của hệ thống JST00",
+    "description-en": "Temperature at sensor T8104 of system JST00",
+    "type": "float"
+  },
+  {
+    "tag": "4S1GP02JST00_T8201",
+    "description-vn": "Nhiệt độ khí thải cooler, điều chỉnh nếu quá thấp",
+    "description-en": "Cooler exhaust gas temperature, adjust if too low",
+    "type": "float"
+  },
+  {
+    "tag": "4T1AY01JST00_B8702",
+    "description-vn": "Nhiệt độ clinker, điều chỉnh quạt cooler nếu quá cao hoặc thấp",
+    "description-en": "Clinker temperature, adjust cooler fan if too high or low",
+    "type": "float"
+  },
+  {
+    "tag": "Actual_coal_PC",
+    "description-vn": "Lượng than thực tế sử dụng cho lò PC",
+    "description-en": "Actual coal consumption for PC kiln",
+    "type": "float"
+  },
+  {
+    "tag": "Actual_coal_SZ",
+    "description-vn": "Lượng than thực tế sử dụng cho lò SZ",
+    "description-en": "Actual coal consumption for SZ kiln",
+    "type": "float"
+  },
+  {
+    "tag": "Actual_KF",
+    "description-vn": "Khối lượng nguyên liệu thô thực tế (Kiln Feed)",
+    "description-en": "Actual raw material mass (Kiln Feed)",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_CaOf",
+    "description-vn": "Hàm lượng CaO tự do trong clinker, tăng có thể gây bám trám hoặc chuyển silo phụ",
+    "description-en": "Free CaO content in clinker, high levels may cause coating or require auxiliary silo transfer",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_SO3",
+    "description-vn": "Hàm lượng SO3 trong clinker, kiểm tra nếu lò thiếu gió",
+    "description-en": "SO3 content in clinker, check if kiln lacks air",
+    "type": "float"
+  },
+  {
+    "tag": "BZTL",
+    "description-vn": "Sản lượng trung bình (BZTL)",
+    "description-en": "Average production output (BZTL)",
+    "type": "float"
+  },
+  {
+    "tag": "CW1RB01JST00_B5001",
+    "description-vn": "Thông số vận hành B5001 của hệ thống JST00 (RB01)",
+    "description-en": "Operating parameter B5001 of system JST00 (RB01)",
+    "type": "float"
+  },
+  {
+    "tag": "CW1RB02JST00_B5001",
+    "description-vn": "Thông số vận hành B5001 của hệ thống JST00 (RB02)",
+    "description-en": "Operating parameter B5001 of system JST00 (RB02)",
+    "type": "float"
+  },
+  {
+    "tag": "Date",
+    "description-vn": "Ngày ghi nhận dữ liệu",
+    "description-en": "Date of data recording",
+    "type": "date"
+  },
+  {
+    "tag": "FactoryId",
+    "description-vn": "Mã định danh nhà máy",
+    "description-en": "Factory identifier",
+    "type": "string"
+  },
+  {
+    "tag": "Grate_Hyd_Pressure",
+    "description-vn": "Áp suất thủy lực cooler, giảm tốc độ lò nếu quá tải",
+    "description-en": "Cooler hydraulic pressure, reduce kiln speed if overloaded",
+    "type": "float"
+  },
+  {
+    "tag": "Kilnfeed_SP_Total",
+    "description-vn": "Tổng giá trị trung bình điểm đặt nguyên liệu vào lò",
+    "description-en": "Total average setpoint for kiln feed material",
+    "type": "float"
+  },
+  {
+    "tag": "note",
+    "description-vn": "Ghi chú bổ sung",
+    "description-en": "Additional notes",
+    "type": "string"
+  },
+  {
+    "tag": "PC_Coal_setpt",
+    "description-vn": "Giá trị trung bình điểm đặt lượng than cho lò PC, điều chỉnh bypass nếu cần",
+    "description-en": "Average setpoint for PC kiln coal, adjust bypass if needed",
+    "type": "float"
+  },
+  {
+    "tag": "Ratio_PC",
+    "description-vn": "Tỷ lệ trung bình sử dụng than PC",
+    "description-en": "Average PC coal usage ratio",
+    "type": "float"
+  },
+  {
+    "tag": "Result_AHC",
+    "description-vn": "Kết quả trung bình của hệ thống điều khiển AHC",
+    "description-en": "Average result of AHC control system",
+    "type": "float"
+  },
+  {
+    "tag": "SZ_Coal_Setpt",
+    "description-vn": "Giá trị trung bình điểm đặt lượng than cho lò SZ, điều chỉnh bypass nếu cần",
+    "description-en": "Average setpoint for SZ kiln coal, adjust bypass if needed",
+    "type": "float"
+  },
+    {
+    "tag": "BP_KSCL_PREMIX_40KT_SO3",
+    "description-vn": "Dữ liệu chất lượng của so3 tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 40kt",
+    "description-en": "Quality data of SO3 in the mixture of raw materials & clay 40KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT886",
+    "description-vn": "Dữ liệu sản xuất của tồn silo c tại khu vực tồn kho",
+    "description-en": "Production data of Silo C inventory in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_C150_Blaine",
+    "description-vn": "Dữ liệu chất lượng của c150_blaine tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng c150_blaine tại khu vực nghiền xi măng trên xhq",
+    "description-en": "Quality data of C150_Blaine in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT133",
+    "description-vn": "Dữ liệu sản xuất của sản lượng premix nhập kho 40kt tại khu vực nguyên liệu",
+    "description-xhq": "Sản lượng nhập tại khu vực kho 40KT trên XHQ",
+    "description-en": "Production data of 40KT inventory Premix in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_XCN_R45",
+    "description-vn": "Dữ liệu chất lượng của xcn_r45 tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xá công nghiệp so3 tại khu vực nghiền xi măng trên xhq",
+    "description-en": "Quality data of XCN_R45 in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT412",
+    "description-vn": "Dữ liệu sản xuất của thời gian giữa 2 lần sự cố (mtbf) tại khu vực lò nung",
+    "description-en": "Production data of the time between 2 incidents (MTBF) in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT435",
+    "description-vn": "Dữ liệu sản xuất của thời gian sản xuất tại khu vực lò nung",
+    "description-en": "Production data of production time in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT430",
+    "description-vn": "Dữ liệu sản xuất của sản lượng tồn két lò tại khu vực lò nung",
+    "description-en": "Production data of furnace safes in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_KF_AR",
+    "description-vn": "Dữ liệu chất lượng của kf_ar tại khu vực bột liệu cấp lò",
+    "description-xhq": "Dữ liệu chất lượng của kf_ar tại khu vực bột liệu cấp lò trên xhq",
+    "description-en": "Quality data of kf_ar at the dough area supplying the furnace",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT553",
+    "description-vn": "Dữ liệu sản xuất của xá cn- tổng tiêu hao thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN- Total plaster consumption in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT519",
+    "description-vn": "Dữ liệu sản xuất của xm c150 tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT884",
+    "description-vn": "Dữ liệu sản xuất của tồn silo a tại khu vực tồn kho",
+    "description-en": "Production data of Silo A inventory in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT517",
+    "description-vn": "Dữ liệu sản xuất của tổng tro bay quy khô tại khu vực nghiền xi măng",
+    "description-en": "Production data of the total dried ashes in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT604",
+    "description-vn": "Dữ liệu sản xuất của tổng xm bao trong nước tại khu vực xuất sản phẩm",
+    "description-en": "Production data of the total domestic xm in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT407",
+    "description-vn": "Dữ liệu sản xuất của chỉ số sẵn sàng - af tại khu vực lò nung",
+    "description-en": "Production data of the Ready Ready Index - AF in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT310",
+    "description-vn": "Dữ liệu sản xuất của số lần dừng lỗi tại khu vực nghiền than",
+    "description-en": "Production data of the number of stops at the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT205",
+    "description-vn": "Dữ liệu sản xuất của điện năng tiêu thụ tại khu vực nghiền liệu",
+    "description-en": "Production data of electricity consumed in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_KF_LSF",
+    "description-vn": "Dữ liệu chất lượng của kf_lsf tại khu vực bột liệu cấp lò",
+    "description-xhq": "Dữ liệu chất lượng của kf_lsf tại khu vực bột liệu cấp lò trên xhq",
+    "description-en": "Quality data of kf_lsf in the dough area supplying the furnace",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT550",
+    "description-vn": "Dữ liệu sản xuất của xá cn- thời gian hoạt động tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN XA- Operating time in cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT706",
+    "description-vn": "Dữ liệu sản xuất của premix kho 100.000 tại khu vực nhập nguyên liệu",
+    "description-xhq": "Premix kho 100.000 tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of Premix warehouse 100,000 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT811",
+    "description-vn": "Dữ liệu sản xuất của clinker mua ngoài tại khu vực tồn kho",
+    "description-en": "Clinker production data bought outside in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT1",
+    "description-vn": "Sản lượng tại khu vực cối đập ",
+    "description-xhq": "Sản lượng qua cối tại phân đoạn chuẩn bị nguyên liệu trên XHQ",
+    "description-en": "Production data of 1.",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT568",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm cân clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of clinker moisture in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT538",
+    "description-vn": "Dữ liệu sản xuất của pcb40- tổng tiêu hao thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- Total plaster consumption in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT529",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - % thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - % plaster in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT424",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao than thô tại khu vực lò nung",
+    "description-en": "Production data of raw coal consumption in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT554",
+    "description-vn": "Dữ liệu sản xuất của xá cn- tổng tiêu hao đá vôi  tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN- Total limestone consumption in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT602",
+    "description-vn": "Dữ liệu sản xuất của tổng xm trong nước tại khu vực xuất sản phẩm",
+    "description-en": "Production data of the total XM in the country in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT7",
+    "description-vn": "Dữ liệu sản xuất của chỉ số sẵn sàng - af tại khu vực hoạt động cối đập",
+    "description-en": "Production data of the Ready Index - AF in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT701",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm tại khu vực nhập nguyên liệu",
+    "description-xhq": "Đá vôi dăm tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of limestone stone in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT808",
+    "description-vn": "Dữ liệu sản xuất của đá vôi phụ gia tại khu vực tồn kho",
+    "description-en": "Production data of additives in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT217",
+    "description-vn": "Dữ liệu sản xuất của sản lượng hgls qua cân tại khu vực nghiền liệu",
+    "description-en": "Production data of HGLS output through weight in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT717",
+    "description-vn": "Dữ liệu sản xuất của than mới 2_trong nước 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 2 in 4b in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT557",
+    "description-vn": "Dữ liệu sản xuất của xá cn- tổng tiêu hao phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN- Total additives in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT319",
+    "description-vn": "Dữ liệu sản xuất của sai số cân than thô coal2 tại khu vực nghiền than",
+    "description-en": "Production data of coal2 coal coal weight error in coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT509",
+    "description-vn": "Dữ liệu sản xuất của chỉ số chất lượng - qf tại khu vực nghiền xi măng",
+    "description-en": "Production data of quality index - QF in cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT530",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - % đá vôi tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - % of limestone in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT216",
+    "description-vn": "Dữ liệu sản xuất của sản lượng sand qua cân tại khu vực nghiền liệu",
+    "description-en": "Production data of sand output in weight in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT559",
+    "description-vn": "Dữ liệu sản xuất của xá cn- % thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN Xa- % plaster in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_RM_SR",
+    "description-vn": "Dữ liệu chất lượng của rm_sr tại khu vực bột liệu nghiền",
+    "description-en": "Quality data of RM_SR in the crushed powder area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT102",
+    "description-vn": "Dữ liệu sản xuất của sản lượng (pre-mix) kho 40k tấn tại khu vực nguyên liệu",
+    "description-en": "Production data of output (Pre-mix) warehouse 40k tons in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_100KT_SR",
+    "description-vn": "Dữ liệu chất lượng của sr tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt",
+    "description-xhq": "Dữ liệu chất lượng của sr tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt trên xhq",
+    "description-en": "Quality data of SR in the mixture of raw materials & clay 100KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT885",
+    "description-vn": "Dữ liệu sản xuất của tồn silo b tại khu vực tồn kho",
+    "description-en": "Production data of Silo B inventory in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT437",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện sản xuất clinker tại khu vực lò nung",
+    "description-xhq": "Tiêu hao điện sản xuất clinker thực tế trên xhq",
+    "description-en": "Production data of clinker production in furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_40KT_LS",
+    "description-vn": "Dữ liệu chất lượng của ls tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 40kt",
+    "description-en": "Quality data of LS in the mixture of macadam material & clay 40KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_100KT_SO3",
+    "description-vn": "Dữ liệu chất lượng của so3 tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt",
+    "description-xhq": "Dữ liệu chất lượng của so3 tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt trên xhq",
+    "description-en": "Quality data of SO3 in the mixed area of ​​raw materials & clay 100KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_40KT_SR",
+    "description-vn": "Dữ liệu chất lượng của sr tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 40kt",
+    "description-en": "Quality data of SR in the mixture of raw materials & clay 40KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_100KT_Alk_SO3",
+    "description-vn": "Dữ liệu chất lượng của alk/so3 tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt",
+    "description-xhq": "Dữ liệu chất lượng của alk/so3 tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt trên xhq",
+    "description-en": "Quality data of ALK/SO3 in the mixture of raw materials & clay 100KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT556",
+    "description-vn": "Dữ liệu sản xuất của xá cn- tổng tiêu hao tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN- Total flying ash in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT317",
+    "description-vn": "Dữ liệu sản xuất của sản lượng than thô coal2 cấp máy nghiền tại khu vực nghiền than",
+    "description-en": "Production data of coal2 coal production",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT434",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao nhiệt than mịn tại khu vực lò nung",
+    "description-en": "Production data of smooth coal heat consumption in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT561",
+    "description-vn": "Dữ liệu sản xuất của xá cn- % xỉ đáy tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN Xa- % of bottom slag in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT501",
+    "description-vn": "Dữ liệu sản xuất của tổng xi măng bột nghiền tại khu vực nghiền xi măng",
+    "description-xhq":"Sản lượng tại khu vực nghiền xi măng trên XHQ",
+    "description-en": "Production data of the total mashed cement in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT807",
+    "description-vn": "Dữ liệu sản xuất của thạch cao tại khu vực tồn kho",
+    "description-en": "Production data of plaster in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT427",
+    "description-vn": "Dữ liệu sản xuất của nhiệt trị than mịn tại khu vực lò nung",
+    "description-en": "Production data of smooth coal treatment in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT821",
+    "description-vn": "Dữ liệu sản xuất của pk c150 tại khu vực tồn kho",
+    "description-en": "Production data of PK C150 in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT523",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - tổng tiêu hao thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Total plaster consumption in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT312",
+    "description-vn": "Dữ liệu sản xuất của thời gian giữa 2 lần sự cố (mtbf) tại khu vực nghiền than",
+    "description-en": "Production data of the time between 2 incidents (MTBF) in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT429",
+    "description-vn": "Dữ liệu sản xuất của sản lượng tồn két calciner tại khu vực lò nung",
+    "description-en": "Production data of Calciner tank output in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT417",
+    "description-vn": "Dữ liệu sản xuất của nhiệt trị than mịn cấp calciner tại khu vực lò nung",
+    "description-en": "Production data of calciner smooth coal treatment in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT3",
+    "description-vn": "Dữ liệu sản xuất của đá sét dăm tại khu vực hoạt động cối đập",
+    "description-xhq": "Thời gian chạy tại khu vực cối đập trên xhq",
+    "description-en": "Production data of clay stone",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT320",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm mixing coal 1 tại khu vực nghiền than",
+    "description-en": "Production data of the moisture coal coal coefficient in coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT306",
+    "description-vn": "Dữ liệu sản xuất của chỉ số oee tại khu vực nghiền than",
+    "description-en": "Production data of the OEE index in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT715",
+    "description-vn": "Dữ liệu sản xuất của than trong nước tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of domestic coal in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT225",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân hgls tại khu vực nghiền liệu",
+    "description-en": "Production data of HGLS weighing weight",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT215",
+    "description-vn": "Dữ liệu sản xuất của sản lượng hgls/laterite qua cân tại khu vực nghiền liệu",
+    "description-en": "Production data of HGLS/Laterite output through the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT108",
+    "description-vn": "Dữ liệu sản xuất của chỉ số oee tại khu vực nguyên liệu",
+    "description-en": "Production data of the OEE index in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT405",
+    "description-vn": "Dữ liệu sản xuất của điện năng tiêu thụ tại khu vực lò nung",
+    "description-en": "Production data of electricity consumed in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT709",
+    "description-vn": "Dữ liệu sản xuất của premix kho 40.000 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Premix warehouse 40,000 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT541",
+    "description-vn": "Dữ liệu sản xuất của pcb40- tổng tiêu hao tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- Total flying ash in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT6",
+    "description-vn": "Dữ liệu sản xuất của chỉ số oee tại khu vực hoạt động cối đập",
+    "description-en": "Production data of the OEE index in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT710",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm premix - kho 40 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Premix limestone - warehouse 40 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT803",
+    "description-vn": "Dữ liệu sản xuất của xcn tại khu vực tồn kho",
+    "description-xhq": "XCN tại khu vực tồn kho trên XHQ",
+    "description-en": "Production data of XCN in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT524",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - tổng tiêu hao đá vôi tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Total limestone consumption in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT809",
+    "description-vn": "Dữ liệu sản xuất của puzzolana tại khu vực tồn kho",
+    "description-en": "Production data of puzzolana in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT528",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - % clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - % Clinker in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_KF_SO3",
+    "description-vn": "Dữ liệu chất lượng của kf_so3 tại khu vực bột liệu cấp lò",
+    "description-xhq": "Dữ liệu chất lượng của kf_so3 tại khu vực bột liệu cấp lò trên xhq",
+    "description-en": "Quality data of kf_so3 in the dough area supplying the furnace",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT410",
+    "description-vn": "Dữ liệu sản xuất của số lần dừng lỗi tại khu vực lò nung",
+    "description-en": "Production data of the number of stops at the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT702",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm sx premix tại khu vực nhập nguyên liệu",
+    "description-xhq": "Đá vôi dăm sx Premix tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of mam mam lime stone in raw material import area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT551",
+    "description-vn": "Dữ liệu sản xuất của xá cn- năng suất tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN Xa- productivity in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT539",
+    "description-vn": "Dữ liệu sản xuất của pcb40- tổng tiêu hao đá vôi tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- Total limestone consumption in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_C150_MKN",
+    "description-vn": "Dữ liệu chất lượng của c150_mkn tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng c150_mkn tại khu vực nghiền xi măng trên xhq ",
+    "description-en": "Quality data of C150_MKN in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_C150_SO3",
+    "description-vn": "Dữ liệu chất lượng của c150_so3 tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng c150_so3 tại khu vực nghiền xi măng trên xhq ",
+    "description-en": "Quality data of C150_SO3 in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT768",
+    "description-vn": "Dữ liệu sản xuất của thạch cao tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of plaster in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_XCN_MKN",
+    "description-vn": "Dữ liệu chất lượng của xcn_mkn tại khu vực nghiền xi măng ",
+    "description-en": "Quality data of XCN_MKN in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT548",
+    "description-vn": "Dữ liệu sản xuất của pcb40- % phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- % additives in cement crushing areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PCB40_R45",
+    "description-vn": "Dữ liệu chất lượng của pcb40_r45 tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng nghiền pcb40_r45 tại khu vực nghiền xi măng ",
+    "description-en": "Quality data of PCB40_R45 in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT218",
+    "description-vn": "Dữ liệu sản xuất của sản lượng premix quy khô tại khu vực nghiền liệu",
+    "description-en": "Production data of dry premix production in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT4",
+    "description-vn": "Dữ liệu sản xuất của 2. đá vôi dăm clc tại khu vực hoạt động cối đập",
+    "description-en": "Production data of 2",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT705",
+    "description-vn": "Dữ liệu sản xuất của đất sét dăm tại khu vực nhập nguyên liệu",
+    "description-xhq": "Đất sét dăm - kho 100 tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of macadam clay in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT107",
+    "description-vn": "Dữ liệu sản xuất của điện năng tiêu thụ tại khu vực nguyên liệu",
+    "description-en": "Production data of electricity consumed in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT504",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện tại khu vực nghiền xi măng",
+    "description-xhq": "Tiêu hao điện tại khu vực nghiền xi măng trên xhq / Tiêu hao điện nghiền xi măng thực tế trên xhq ",
+    "description-en": "Production data of electricity consumption in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT617",
+    "description-vn": "Dữ liệu sản xuất của tổng clinker tại khu vực xuất sản phẩm",
+    "description-xhq": "Tổng Clinker tại khu vực xuất sản phẩm trên XHQ",
+    "description-en": "Production data of Clinker total in product production area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_RM_SO3",
+    "description-vn": "Dữ liệu chất lượng của rm_so3 tại khu vực bột liệu nghiền",
+    "description-xhq": "Dữ liệu chất lượng của rm_so3 tại khu vực bột liệu nghiền trên xhq",
+    "description-en": "Quality data of RM_SO3 in the crushed powder area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT219",
+    "description-vn": "Dữ liệu sản xuất của sản lượng hgls/laterite quy khô tại khu vực nghiền liệu",
+    "description-en": "Production data of HGLS/Laterite dried rules in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT708",
+    "description-vn": "Dữ liệu sản xuất của đá sét dăm - kho 100 tại khu vực nhập nguyên liệu",
+    "description-xhq": "Đá sét dăm - kho 100 tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of mumblen clay stone - Warehouse 100 in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT824",
+    "description-vn": "Dữ liệu sản xuất của giấy pc50 tại khu vực tồn kho",
+    "description-en": "Production data of PC50 Paper in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT615",
+    "description-vn": "Dữ liệu sản xuất của xm rời c150, pc50 rời,pcsr40 bền sulfat xá tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM XM removable C150, PC50 separate, PCSR40 durable sulfate in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_RM_AR",
+    "description-vn": "Dữ liệu chất lượng của rm_ar tại khu vực bột liệu nghiền",
+    "description-xhq": "Dữ liệu chất lượng của rm_ar tại khu vực bột liệu nghiền trên xhq",
+    "description-en": "Quality data of RM_ar in the crushed powder area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT432",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân cấp liệu lò tại khu vực lò nung",
+    "description-en": "Production data of the weighing weight false weighing the furnace material in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT569",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm cân tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of flying ash moisture in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT713",
+    "description-vn": "Dữ liệu sản xuất của tổng than tại khu vực nhập nguyên liệu",
+    "description-xhq": "Tổng than tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of the total coal in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT211",
+    "description-vn": "Dữ liệu sản xuất của thời gian dừng lỗi tại khu vực nghiền liệu",
+    "description-en": "Production data of the time of stopping at the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT431",
+    "description-vn": "Dữ liệu sản xuất của điện năng tiêu thụ phân bổ tại khu vực lò nung",
+    "description-en": "Production data of power consumption allocated in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT502",
+    "description-vn": "Dữ liệu sản xuất của thời gian hoạt động tại khu vực nghiền xi măng",
+    "description-en": "Production data of operating time in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT425",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao nhiệt dầu tại khu vực lò nung",
+    "description-en": "Production data of oil consumption in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT209",
+    "description-vn": "Dữ liệu sản xuất của chỉ số chất lượng - qf tại khu vực nghiền liệu",
+    "description-en": "Production data of quality index - QF in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT612",
+    "description-vn": "Dữ liệu sản xuất của xm rời vhđd tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM Leave VHDD in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT401",
+    "description-vn": "Dữ liệu sản xuất của tổng sản lượng clinker tại khu vực lò nung",
+    "description-xhq":"Sản lượng tại khu vực lò nung trên XHQ",
+    "description-en": "Production data of the total clinker production in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT301",
+    "description-vn": "Dữ liệu sản xuất của tổng sản lượng nghiền than tại khu vực nghiền than",
+    "description-xhq": "Sản lượng tại khu vực nghiền than trên XHQ",
+    "description-en": "Production data of the total coal crushing output in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT9",
+    "description-vn": "Dữ liệu sản xuất của chỉ số chất lượng - qf tại khu vực hoạt động cối đập",
+    "description-en": "Production data of Quality Index - QF in the damage area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT610",
+    "description-vn": "Dữ liệu sản xuất của xm bao opc tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM OPC in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT533",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - % phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - % additives in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT222",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân premix tại khu vực nghiền liệu",
+    "description-en": "Production data of premix weighing weight in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT136",
+    "description-vn": "Dữ liệu sản xuất của sản lượng đá giàu silic tại khu vực nguyên liệu",
+    "description-en": "Production data of silicon -rich stone production in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT718",
+    "description-vn": "Dữ liệu sản xuất của than mới 3_trong nước 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 3 in 4b in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT303",
+    "description-vn": "Dữ liệu sản xuất của năng suất trung bình tại khu vực nghiền than",
+    "description-xhq": "Năng suất tại khu vực nghiền than trên XHQ",
+    "description-en": "Manufacturing data of average productivity in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT414",
+    "description-vn": "Dữ liệu sản xuất của bột liệu cấp lò- quy khô tại khu vực lò nung",
+    "description-en": "Production data of flour supplying kiln-dry in the kiln area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT614",
+    "description-vn": "Dữ liệu sản xuất của xm bao c150, pc50 bao 50kg tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM Bao C150, PC50 bag 50kg in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT307",
+    "description-vn": "Dữ liệu sản xuất của chỉ số sẵn sàng - af tại khu vực nghiền than",
+    "description-en": "Production data of the Ready Index - AF in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT576",
+    "description-vn": "Dữ liệu sản xuất của tiêu thụ điện sản xuất pcb40 tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40 production in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT581",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện trung bình sản xuất c150 tại khu vực nghiền xi măng",
+    "description-xhq": "Tiêu hao điện C150 tại khu vực nghiền xi măng trên XHQ",
+    "description-en": "Production data of average C150 production in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT775",
+    "description-vn": "Dữ liệu sản xuất của thạch cao mới 4 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new plaster 4 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT605",
+    "description-vn": "Dữ liệu sản xuất của tổng xm rời trong nước tại khu vực xuất sản phẩm",
+    "description-en": "Production data of the overall XM in the country in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT919",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao nhiệt bã điều tại khu vực tiêu hao ",
+    "description-en": "Production data of heat consumption in the consumption area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT137",
+    "description-vn": "Dữ liệu sản xuất của sản lượng đá laterite tại khu vực nguyên liệu",
+    "description-en": "Production data of Laterite stone production in the material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT606",
+    "description-vn": "Dữ liệu sản xuất của tổng xm bao xuất khẩu tại khu vực xuất sản phẩm",
+    "description-en": "Production data of total export xm in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT515",
+    "description-vn": "Dữ liệu sản xuất của tổng đá vôi quy khô tại khu vực nghiền xi măng",
+    "description-en": "Production data of the total dried limestone in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT508",
+    "description-vn": "Dữ liệu sản xuất của chỉ số hiệu suất - pf tại khu vực nghiền xi măng",
+    "description-en": "Production data of the performance index - PF at the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT403",
+    "description-vn": "Dữ liệu sản xuất của năng suất trung bình tại khu vực lò nung",
+    "description-xhq": "Năng suất tại khu vực lò nung trên XHQ",
+    "description-en": "Mid -yield production data in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT555",
+    "description-vn": "Dữ liệu sản xuất của xá cn- tổng tiêu hao xỉ đáy tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN- Total slag consumption in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT704",
+    "description-vn": "Dữ liệu sản xuất của letarit tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Letarit in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT544",
+    "description-vn": "Dữ liệu sản xuất của pcb40- % thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- % Gypsum in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT512",
+    "description-vn": "Dữ liệu sản xuất của thời gian giữa 2 lần sự cố (mtbf) tại khu vực nghiền xi măng",
+    "description-en": "Production data of time between 2 incidents (MTBF) in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT314",
+    "description-vn": "Dữ liệu sản xuất của sản lượng than thô coal1 vào kho tại khu vực nghiền than",
+    "description-en": "Production data of coal1 coal production in the warehouse in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_AR",
+    "description-vn": "Dữ liệu chất lượng của cl_ar tại khu vực clinker",
+    "description-xhq": "Dữ liệu chất lượng của cl_ar tại khu vực clinker trên xhq",
+    "description-en": "Quality data of Cl_ar in the Clinker area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT214",
+    "description-vn": "Dữ liệu sản xuất của sản lượng premix qua cân tại khu vực nghiền liệu",
+    "description-en": "Production data of premix output in weight in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_SO3",
+    "description-vn": "Dữ liệu chất lượng của cl_so3 tại khu vực clinker",
+    "description-xhq": "Dữ liệu chất lượng của cl_so3 tại khu vực clinker trên xhq",
+    "description-en": "Quality data of Cl_SO3 in the Clinker area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT564",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm cân đá vôi tại khu vực nghiền xi măng",
+    "description-en": "Production data of limestone moisture in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT802",
+    "description-vn": "Dữ liệu sản xuất của xm pcb40 tại khu vực tồn kho",
+    "description-xhq": "XM PCB40 tại khu vực tồn kho trên XHQ",
+    "description-en": "Production data of XM PCB40 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT302",
+    "description-vn": "Dữ liệu sản xuất của thời gian hoạt động tại khu vực nghiền than",
+    "description-xhq": "Thời gian chạy tại khu vực nghiền than trên XHQ",
+    "description-en": "Production data of operating time in coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT806",
+    "description-vn": "Dữ liệu sản xuất của clinker tại khu vực tồn kho",
+    "description-xhq": "Clinker tại khu vực tồn kho trên XHQ",
+    "description-en": "Clinker's production data in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT313",
+    "description-vn": "Dữ liệu sản xuất của tổng sản lượng than thô vào kho tại khu vực nghiền than",
+    "description-en": "Production data of the total coal production in the warehouse in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PCB40_MKN",
+    "description-vn": "Dữ liệu chất lượng của pcb40_mkn tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng nghiền pcb40_mkn tại khu vực nghiền xi măng ",
+    "description-en": "Quality data of PCB40_MKN in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_KF_SR",
+    "description-vn": "Dữ liệu chất lượng của kf_sr tại khu vực bột liệu cấp lò",
+    "description-xhq": "Dữ liệu chất lượng của kf_sr tại khu vực bột liệu cấp lò trên xhq",
+    "description-en": "Quality data of KF_SR in the dough area supplying the furnace",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT716",
+    "description-vn": "Dữ liệu sản xuất của than mới 1 trong nước 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than New 1 in 4b in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT101",
+    "description-vn": "Dữ liệu sản xuất của sản lượng (pre-mix) kho 3k tấn tại khu vực nguyên liệu",
+    "description-en": "Production data of output (Pre-mix) 3k tons in raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT305",
+    "description-vn": "Dữ liệu sản xuất của điện năng tiêu thụ tại khu vực nghiền than",
+    "description-en": "Production data of electricity consumed in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT227",
+    "description-vn": "Dữ liệu sản xuất của hệ số độ ẩm cân hgls/laterite tại khu vực nghiền liệu",
+    "description-en": "Production data of HGLS/Laterite humidity coefficient in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT428",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao than mịn tồn két tại khu vực lò nung",
+    "description-en": "Production data of consumption of smooth coal exist in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT712",
+    "description-vn": "Dữ liệu sản xuất của cát mua ngoài tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of sand bought outside in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT220",
+    "description-vn": "Dữ liệu sản xuất của sản lượng sand quy khô tại khu vực nghiền liệu",
+    "description-en": "Production data of dry sand production in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT402",
+    "description-vn": "Dữ liệu sản xuất của thời gian hoạt động tại khu vực lò nung",
+    "description-en": "Production data of operating time in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT540",
+    "description-vn": "Dữ liệu sản xuất của pcb40- tổng tiêu hao xỉ đáy tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- Total slag consumption in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT510",
+    "description-vn": "Dữ liệu sản xuất của số lần dừng lỗi tại khu vực nghiền xi măng",
+    "description-en": "Production data of the number of stops at the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT505",
+    "description-vn": "Dữ liệu sản xuất của điện năng tiêu thụ tại khu vực nghiền xi măng",
+    "description-en": "Production data of electricity consumed in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT563",
+    "description-vn": "Dữ liệu sản xuất của xá cn- % phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN Xa- % additives in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT318",
+    "description-vn": "Dữ liệu sản xuất của sai số cân than thô coal1 tại khu vực nghiền than",
+    "description-en": "Production data of coal1 coal scales in coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT547",
+    "description-vn": "Dữ liệu sản xuất của pcb40- % tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- % fly ash in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT577",
+    "description-vn": "Dữ liệu sản xuất của tiêu thụ điện sản xuất xá cn tại khu vực nghiền xi măng",
+    "description-en": "Production data of electrical production production in cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT587",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm cát kết tại khu vực nghiền xi măng",
+    "description-en": "Production data of the percentage of sand in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT583",
+    "description-vn": "Dữ liệu sản xuất của sự cố điện tại khu vực nghiền xi măng",
+    "description-en": "Production data of electrical problems in cement crushing areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT253",
+    "description-vn": "Dữ liệu sản xuất của sự cố khác tại khu vực nghiền liệu",
+    "description-en": "Production data of other incidents in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_40KT_Alk_SO3",
+    "description-vn": "Dữ liệu chất lượng của alk/so3 tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 40kt",
+    "description-en": "Quality data of ALK/SO3 in the mixed area of ​​macadam material & clay 40KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT438",
+    "description-vn": "Dữ liệu sản xuất của điện năng tiêu thụ sản xuất clinker tại khu vực lò nung",
+    "description-en": "Production data of clinker production power in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PCB40_Blaine",
+    "description-vn": "Dữ liệu chất lượng của pcb40_blaine tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng nghiền pcb40 blaine tại khu vực nghiền xi măng ",
+    "description-en": "Quality data of PCB40_Blaine in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_C150_R45",
+    "description-vn": "Dữ liệu chất lượng của c150_r45 tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng c150_r45 tại khu vực nghiền xi măng trên xhq ",
+    "description-en": "Quality data of C150_R45 in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_C150_CKT",
+    "description-vn": "Dữ liệu chất lượng của c150_ckt tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng c150_ckt tại khu vực nghiền xi măng trên xhq ",
+    "description-en": "Quality data of C150_CKT in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_XCN_SO3",
+    "description-vn": "Dữ liệu chất lượng của xcn_so3 tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xá công nghiệp so3 tại khu vực nghiền xi măng trên xhq",
+    "description-en": "Quality data of XCN_SO3 in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT226",
+    "description-vn": "Dữ liệu sản xuất của hệ số độ ẩm cân premix tại khu vực nghiền liệu",
+    "description-en": "Production data of premix moisture level in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT406",
+    "description-vn": "Dữ liệu sản xuất của chỉ số oee tại khu vực lò nung",
+    "description-en": "Production data of OEE index in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT213",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao bột liệu sản xuất clinker tại khu vực nghiền liệu",
+    "description-xhq": "Tiêu hao bột liệu sản xuất clinker thực tế trên xhq / Tiêu hao bột liệu sản xuất clinker mục tiêu trên xhq",
+    "description-en": "Production data of clinker production powder in grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT812",
+    "description-vn": "Dữ liệu sản xuất của chất trợ nghiền các loại tại khu vực tồn kho",
+    "description-en": "Production data of crushing substances of all kinds in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT224",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân sand tại khu vực nghiền liệu",
+    "description-en": "Production data of the sandweight weighing coefficient at the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT203",
+    "description-vn": "Dữ liệu sản xuất của năng suất trung bình tại khu vực nghiền liệu",
+    "description-xhq": "Năng suất tại khu vực nghiền liệu trên XHQ / Năng suất tại khu vực nghiền bột sống trên XHQ",
+    "description-en": "Middish production data in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT818",
+    "description-vn": "Dữ liệu sản xuất của vỏ bao tại khu vực tồn kho",
+    "description-en": "Production data of the cover in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT608",
+    "description-vn": "Dữ liệu sản xuất của xm bao pcb40 tại khu vực xuất sản phẩm",
+    "description-en": "Production data of PCB40 XM in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT565",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm cân phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of additives moisture in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT575",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of the flying weight false weight in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT8",
+    "description-vn": "Dữ liệu sản xuất của chỉ số hiệu suất - pf tại khu vực hoạt động cối đập",
+    "description-en": "Production data of the performance index - PF in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT823",
+    "description-vn": "Dữ liệu sản xuất của pp dán đa dụng tại khu vực tồn kho",
+    "description-en": "Production data of multi -purpose PP PP in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PCB40_SO3",
+    "description-vn": "Dữ liệu chất lượng của pcb40_so3 tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng nghiền pcb40_so3 tại khu vực nghiền xi măng ",
+    "description-en": "Quality data of PCB40_SO3 in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT511",
+    "description-vn": "Dữ liệu sản xuất của thời gian dừng lỗi tại khu vực nghiền xi măng",
+    "description-en": "Production data of the time of stopping the error in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT816",
+    "description-vn": "Dữ liệu sản xuất của basf ls3262 tại khu vực tồn kho",
+    "description-en": "Production data of BASF LS3262 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT12",
+    "description-vn": "Dữ liệu sản xuất của thời gian giữa 2 lần sự cố (mtbf) tại khu vực hoạt động cối đập",
+    "description-en": "Production data of the time between 2 incidents (MTBF) in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT545",
+    "description-vn": "Dữ liệu sản xuất của pcb40- % đá vôi tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- % limestone in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT558",
+    "description-vn": "Dữ liệu sản xuất của xá cn- % clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN Xa- % Clinker in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm sx premix tại khu vực hoạt động cối đập",
+    "description-xhq": "Dữ liệu năng suất tại khu vực cối đập trên XHQ / Dữ liệu năng suất tại khu vực kho 100KT trên XHQ / Năng suất trung bình cối tại phân đoạn chuẩn bị nguyên liệu trên XHQ",
+    "description-en": "Production data of premix mitus limestone in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT822",
+    "description-vn": "Dữ liệu sản xuất của pp xuất khẩu tại khu vực tồn kho",
+    "description-en": "Production data of PP exported in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT109",
+    "description-vn": "Dữ liệu sản xuất của chỉ số sẵn sàng - af tại khu vực nguyên liệu",
+    "description-en": "Production data of the Ready Index - AF in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_LSF",
+    "description-vn": "Dữ liệu chất lượng của cl_lsf tại khu vực clinker",
+    "description-xhq": "Dữ liệu chất lượng của cl_lsf tại khu vực clinker trên xhq",
+    "description-en": "Quality data of CL_LSF in the Clinker area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT535",
+    "description-vn": "Dữ liệu sản xuất của pcb40- thời gian hoạt động tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- Operating time in cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT204",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện tại khu vực nghiền liệu",
+    "description-xhq":"Tiêu hao điện tại khu vực nghiền liệu trên XHQ / Tiêu hao điện tại khu vực nghiền bột sống trên XHQ",
+    "description-en": "Production data of electricity consumption in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT536",
+    "description-vn": "Dữ liệu sản xuất của pcb40- năng suất tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- productivity in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT411",
+    "description-vn": "Dữ liệu sản xuất của thời gian dừng lỗi tại khu vực lò nung",
+    "description-en": "Production data of the time of stopping the error in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT813",
+    "description-vn": "Dữ liệu sản xuất của korca hkc 8xplus tại khu vực tồn kho",
+    "description-en": "Production data of Korca HKC 8xplus in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT591",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm tro bay 268 tại khu vực nghiền xi măng",
+    "description-en": "Production data of the percentage of flying ash 268 in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT250",
+    "description-vn": "Dữ liệu sản xuất của sự cố cơ tại khu vực nghiền liệu",
+    "description-en": "Production data of mechanical incidents in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT440",
+    "description-vn": "Dữ liệu sản xuất của sự cố điện tại khu vực lò nung",
+    "description-en": "Production data of electrical problems in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT144",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện premix nhập kho 100kt tại khu vực nguyên liệu",
+    "description-en": "Production data of electricity consumption of 100KT inventory in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT148",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện sx đá giàu silic tại khu vực nguyên liệu",
+    "description-en": "Production data of silicon -rich electrical production in raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT829",
+    "description-vn": "Dữ liệu sản xuất của pp bền sunphat tại khu vực tồn kho",
+    "description-en": "Production data of sulfate durable PP in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT45",
+    "description-vn": "Dữ liệu sản xuất của sự cố cơ tại khu vực hoạt động cối đập",
+    "description-en": "Production data of mechanical incidents in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT832",
+    "description-vn": "Dữ liệu sản xuất của cát tại khu vực tồn kho",
+    "description-en": "Sand production data in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT870",
+    "description-vn": "Dữ liệu sản xuất của vải vụn nhân trí (**) tại khu vực tồn kho",
+    "description-en": "Production data of Nhan Tri Rags (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PCB40_CaO",
+    "description-vn": "Dữ liệu chất lượng của pcb40_cao tại khu vực nghiền xi măng ",
+    "description-en": "Quality data of PCB40_CAO in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT135",
+    "description-vn": "Dữ liệu sản xuất của sản lượng đá phụ gia xi măng tại khu vực nguyên liệu",
+    "description-en": "Production data of cement additives in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT703",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm clc tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of CLC macadin limestone in raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT421",
+    "description-vn": "Dữ liệu sản xuất của nhiệt trị than thô coal 1 tại khu vực lò nung",
+    "description-en": "Production data of coal coal heat treatment 1 in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT810",
+    "description-vn": "Dữ liệu sản xuất của cát kết tại khu vực tồn kho",
+    "description-en": "Production data of sand in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT506",
+    "description-vn": "Dữ liệu sản xuất của chỉ số oee tại khu vực nghiền xi măng",
+    "description-en": "Production data of OEE index in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT532",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - % tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - % of fly ash in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT574",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of clinker weight deviation in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT711",
+    "description-vn": "Dữ liệu sản xuất của đá sét dăm - kho 40 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of macadam stone - Warehouse 40 in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT420",
+    "description-vn": "Dữ liệu sản xuất của sản lượng than cấp lò tại khu vực lò nung",
+    "description-en": "Production data of supplier coal in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_RM_LSF",
+    "description-vn": "Dữ liệu chất lượng của rm_lsf tại khu vực bột liệu nghiền",
+    "description-xhq": "Dữ liệu chất lượng của rm_lsf tại khu vực bột liệu nghiền trên xhq",
+    "description-en": "Quality data of RM_LSF in the crushed powder area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT814",
+    "description-vn": "Dữ liệu sản xuất của grace htv 2222 tại khu vực tồn kho",
+    "description-en": "Production data of Grace HTV 2222 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT571",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of the balance of the additive weight in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT112",
+    "description-vn": "Dữ liệu sản xuất của số lần dừng lỗi tại khu vực nguyên liệu",
+    "description-en": "Production data of the number of errors in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT404",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện tại khu vực lò nung",
+    "description-xhq": "Điện tại khu vực lò nung trên XHQ",
+    "description-en": "Production data of electricity consumption in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT308",
+    "description-vn": "Dữ liệu sản xuất của chỉ số hiệu suất - pf tại khu vực nghiền than",
+    "description-en": "Production data of the performance index - PF in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT566",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩmh cân xỷ tại khu vực nghiền xi măng",
+    "description-en": "Production data of the moisture coefficient in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT542",
+    "description-vn": "Dữ liệu sản xuất của pcb40- tổng tiêu hao phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- Total consumption of additives in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT228",
+    "description-vn": "Dữ liệu sản xuất của hệ số độ ẩm cân cát kết tại khu vực nghiền liệu",
+    "description-en": "Production data of the sandweight moisture coefficient at the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT609",
+    "description-vn": "Dữ liệu sản xuất của xm bao vhđd tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM Culture Culture in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT105",
+    "description-vn": "Dữ liệu sản xuất của năng suất trung bình tại khu vực nguyên liệu",
+    "description-en": "Mid -yield production data in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT817",
+    "description-vn": "Dữ liệu sản xuất của korca hkc 3sh.2 tại khu vực tồn kho",
+    "description-en": "Production data of Korca HKC 3SH.2 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT549",
+    "description-vn": "Dữ liệu sản xuất của xá cn tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT103",
+    "description-vn": "Dữ liệu sản xuất của sản lượng (pre-mix) kho 100k tấn tại khu vực nguyên liệu",
+    "description-en": "Production data of output (Pre-mix) warehouse 100k tons in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PCB40_CKT",
+    "description-vn": "Dữ liệu chất lượng của pcb40_ckt tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xi măng nghiền pcb40_ckt tại khu vực nghiền xi măng ",
+    "description-en": "Quality data of PCB40_CKT in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT106",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện tại khu vực nguyên liệu",
+    "description-en": "Production data of electricity consumption in the material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT534",
+    "description-vn": "Dữ liệu sản xuất của pcb40 tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40 in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT210",
+    "description-vn": "Dữ liệu sản xuất của số lần dừng lỗi tại khu vực nghiền liệu",
+    "description-en": "Production data of the number of stops at the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT611",
+    "description-vn": "Dữ liệu sản xuất của xm rời pcb40 tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM Leave PCB40 in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT436",
+    "description-vn": "Dữ liệu sản xuất của tổng tiêu hao nhiệt sản xuất clinker tại khu vực lò nung",
+    "description-xhq": "Nhiệt tại khu vực lò nung trên XHQ / Tiêu hao nhiệt sản xuất clinker thực tế trên xhq",
+    "description-en": "Production data of the total heat consumption of clinker production in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT221",
+    "description-vn": "Dữ liệu sản xuất của sản lượng hgls quy khô tại khu vực nghiền liệu",
+    "description-en": "Production data of dry rules in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT531",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - % xỉ đáy tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - % of the bottom slag in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT422",
+    "description-vn": "Dữ liệu sản xuất của nhiệt trị than thô coal 2 tại khu vực lò nung",
+    "description-en": "Production data of Coal 2 coal heat treatment in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT304",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện tại khu vực nghiền than",
+    "description-xhq":"Tiêu hao điện tại khu vực nghiền than trên XHQ",
+    "description-en": "Production data of electricity consumption in the coal crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT582",
+    "description-vn": "Dữ liệu sản xuất của sự cố cơ tại khu vực nghiền xi măng",
+    "description-en": "Production data of mechanical incidents in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT442",
+    "description-vn": "Dữ liệu sản xuất của sự cố khác tại khu vực lò nung",
+    "description-en": "Production data of other incidents in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT131",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm cân tổng qua côi 2e1bc01 tại khu vực nguyên liệu",
+    "description-en": "Production data of the total moisture coefficient through 2E1BC01 in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT150",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện gia công nguyên liệu (qua cối) tại khu vực nguyên liệu",
+    "description-xhq": "Tiêu hao điện gia công nguyên liệu (qua cối) tại khu vực kho 100KT trên XHQ / Tiêu hao điện tại khu vực cối đập trên xhq",
+    "description-en": "Production data of electricity processing (through mortar) in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT825",
+    "description-vn": "Dữ liệu sản xuất của jumbo c150/pc50 tại khu vực tồn kho",
+    "description-en": "Production data of Jumbo C150/PC50 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT827",
+    "description-vn": "Dữ liệu sản xuất của kpk pcb40 tại khu vực tồn kho",
+    "description-en": "Production data of KPK PCB40 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT841",
+    "description-vn": "Dữ liệu sản xuất của bã vỏ hạt điều tại khu vực tồn kho",
+    "description-en": "Production data of cashew shells in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT867",
+    "description-vn": "Dữ liệu sản xuất của than tuấn sơn 6400 (**) tại khu vực tồn kho",
+    "description-en": "Production data of Tuan Son coal 6400 (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT879",
+    "description-vn": "Dữ liệu sản xuất của xỉ đáy (**) tại khu vực tồn kho",
+    "description-en": "Production data of bottom slag (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_XCN_CaO",
+    "description-vn": "Dữ liệu chất lượng của xcn_cao tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xá công nghiệp cao tại khu vực nghiền xi măng trên xhq",
+    "description-en": "Quality data of XCN_Cao in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT134",
+    "description-vn": "Dữ liệu sản xuất của sản lượng đá vôi chất lượng cao tại khu vực nguyên liệu",
+    "description-xhq": "Sản lượng HGLS trên XHQ" ,
+    "description-en": "Production data of high quality limestone production in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT830",
+    "description-vn": "Dữ liệu sản xuất của pk xk red word tại khu vực tồn kho",
+    "description-en": "Production data of PK XK Red Word in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_XCN_Blaine",
+    "description-vn": "Dữ liệu chất lượng của xcn_blaine tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xá công nghiệp blaine tại khu vực nghiền xi măng trên xhq",
+    "description-en": "Quality data of XCN_Blaine in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT518",
+    "description-vn": "Dữ liệu sản xuất của tổng phụ gia quy khô tại khu vực nghiền xi măng",
+    "description-en": "Production data of the total dry additives in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT613",
+    "description-vn": "Dữ liệu sản xuất của xm rời cn pcb40 tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM leaves PCB40 industry in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT546",
+    "description-vn": "Dữ liệu sản xuất của pcb40- % xỉ đáy tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- % of the bottom slag in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT804",
+    "description-vn": "Dữ liệu sản xuất của xm khác tại khu vực tồn kho",
+    "description-en": "Production data of other XM in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT207",
+    "description-vn": "Dữ liệu sản xuất của chỉ số sẵn sàng - af tại khu vực nghiền liệu",
+    "description-en": "Production data of the Ready Ready Index - AF in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT311",
+    "description-vn": "Dữ liệu sản xuất của thời gian dừng lỗi tại khu vực nghiền than",
+    "description-en": "Production data of the time of stopping at the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT416",
+    "description-vn": "Dữ liệu sản xuất của tổng dầu cấp calciner tại khu vực lò nung",
+    "description-en": "Production data of total calciner supply oil in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT433",
+    "description-vn": "Dữ liệu sản xuất của hệ số độ ẩm cân cấp liệu lò tại khu vực lò nung",
+    "description-en": "Production data of the moisture level of weight granting furnace in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT110",
+    "description-vn": "Dữ liệu sản xuất của chỉ số hiệu suất - pf tại khu vực nguyên liệu",
+    "description-en": "Production data of the performance index - PF in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT616",
+    "description-vn": "Dữ liệu sản xuất của xm rời jumbo pc50, c150 tại khu vực xuất sản phẩm",
+    "description-en": "Production data of XM leaving Jumbo PC50, C150 in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT820",
+    "description-vn": "Dữ liệu sản xuất của pp dán pcb 40 tại khu vực tồn kho",
+    "description-en": "Production data of PP PCB 40 in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT423",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao nhiệt than thô tại khu vực lò nung",
+    "description-en": "Production data of raw coal heat consumption in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT572",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân xỷ tại khu vực nghiền xi măng",
+    "description-en": "Production data of the weight difference in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT552",
+    "description-vn": "Dữ liệu sản xuất của xá cn- tổng tiêu hao clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN XA- Total CLINKER CONCLUEMING IN THE Cement Grinding Area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT537",
+    "description-vn": "Dữ liệu sản xuất của pcb40- tổng tiêu hao clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- Total Clinker consumption in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT111",
+    "description-vn": "Dữ liệu sản xuất của chỉ số chất lượng - qf tại khu vực nguyên liệu",
+    "description-en": "Production data of quality index - QF in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT212",
+    "description-vn": "Dữ liệu sản xuất của thời gian giữa 2 lần sự cố (mtbf) tại khu vực nghiền liệu",
+    "description-en": "Production data of the time between 2 incidents (MTBF) in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT419",
+    "description-vn": "Dữ liệu sản xuất của nhiệt trị than mịn cấp lò tại khu vực lò nung",
+    "description-en": "Production data of smooth coal treatment in furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT543",
+    "description-vn": "Dữ liệu sản xuất của pcb40- % clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of PCB40- % Clinker in cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT223",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân hgls/laterite tại khu vực nghiền liệu",
+    "description-en": "Production data of the HGLS/Laterite weighing scaling coefficient in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT567",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm cân thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of gypsum moisture in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT208",
+    "description-vn": "Dữ liệu sản xuất của chỉ số hiệu suất - pf tại khu vực nghiền liệu",
+    "description-en": "Production data of the performance index - PF in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT507",
+    "description-vn": "Dữ liệu sản xuất của chỉ số sẵn sàng - af tại khu vực nghiền xi măng",
+    "description-en": "Production data of the Ready Ready Index - AF in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT805",
+    "description-vn": "Dữ liệu sản xuất của xm c150 tại khu vực tồn kho",
+    "description-xhq": "XM C150 tại khu vực tồn kho trên XHQ",
+    "description-en": "Production data of XM C150 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT418",
+    "description-vn": "Dữ liệu sản xuất của sản lượng than cấp calciner tại khu vực lò nung",
+    "description-en": "Production data of Calciner coal production in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT522",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - tổng tiêu hao clinker tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Total Clinker consumption in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT819",
+    "description-vn": "Dữ liệu sản xuất của vỏ bao pk dán xk -c150 tại khu vực tồn kho",
+    "description-en": "Production data of the PK PK cover of XK -C150 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT5",
+    "description-vn": "Dữ liệu sản xuất của 3. đá vôi phu gia xi măng tại khu vực hoạt động cối đập",
+    "description-en": "Production data of 3.",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT201",
+    "description-vn": "Dữ liệu sản xuất của tổng sản lượng bột liệu tại khu vực nghiền liệu",
+    "description-xhq":"Sản lượng tại khu vực nghiền liệu trên XHQ",
+    "description-en": "Production data of the total output of dough in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT570",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân đá vôi tại khu vực nghiền xi măng",
+    "description-en": "Production data of the limestone weighing scaling coefficient in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT415",
+    "description-vn": "Dữ liệu sản xuất của tổng dầu cấp lò tại khu vực lò nung",
+    "description-en": "Production data of total furnace oil in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT439",
+    "description-vn": "Dữ liệu sản xuất của sự cố cơ tại khu vực lò nung",
+    "description-en": "Production data of mechanical incidents in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT141",
+    "description-vn": "Dữ liệu sản xuất của thời gian chạy đá phụ gia xi măng tại khu vực nguyên liệu",
+    "description-en": "Production data of cement additives in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT149",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện sx đá laterite tại khu vực nguyên liệu",
+    "description-en": "Production data of Laterite stone production in raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT836",
+    "description-vn": "Dữ liệu sản xuất của dầu do (lò nung) tại khu vực tồn kho",
+    "description-en": "Production data of oil (furnace) in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT837",
+    "description-vn": "Dữ liệu sản xuất của dầu ado(lò nung) tại khu vực tồn kho",
+    "description-en": "Production data of ADO oil (furnace) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT882",
+    "description-vn": "Dữ liệu sản xuất của đvpg tại khu vực tồn kho",
+    "description-en": "Production data of ĐVPG in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT873",
+    "description-vn": "Dữ liệu sản xuất của dầu do 0.05%s(đốt lò) (clinker) tại khu vực tồn kho",
+    "description-en": "Production data of oil by 0.05%S (clinker) (clinker) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_100KT_LS",
+    "description-vn": "Dữ liệu chất lượng của ls tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt",
+    "description-xhq": "Dữ liệu chất lượng của ls tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt trên xhq",
+    "description-en": "Quality data of LS in the mixture of raw materials & clay 100KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT601",
+    "description-vn": "Dữ liệu sản xuất của tổng xm tại khu vực xuất sản phẩm",
+    "description-xhq": "Tổng XM tại khu vực xuất sản phẩm trên XHQ",
+    "description-en": "Production data of the total XM in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT321",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm mixing coal 2 tại khu vực nghiền than",
+    "description-en": "Production data of Moistic Coal 2 moisture coefficient in coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT10",
+    "description-vn": "Dữ liệu sản xuất của số lần dừng lỗi tại khu vực hoạt động cối đập",
+    "description-en": "Production data of the number of stops at the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT139",
+    "description-vn": "Dữ liệu sản xuất của thời gian hhnl nhập kho 40kt tại khu vực nguyên liệu",
+    "description-xhq": "Thời gian hoạt động tại khu vực kho 40KT trên XHQ",
+    "description-en": "Production data of HHNL time is 40KT in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT714",
+    "description-vn": "Dữ liệu sản xuất của than 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of coal 4B in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT514",
+    "description-vn": "Dữ liệu sản xuất của tổng thạch quy khô tại khu vực nghiền xi măng",
+    "description-en": "Production data of dried jelly in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT560",
+    "description-vn": "Dữ liệu sản xuất của xá cn- % đá vôi tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN Xa- % of limestone in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT11",
+    "description-vn": "Dữ liệu sản xuất của thời gian dừng lỗi tại khu vực hoạt động cối đập",
+    "description-en": "Production data of the time of stopping the error at the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT503",
+    "description-vn": "Dữ liệu sản xuất của năng suất trung bình tại khu vực nghiền xi măng",
+    "description-xhq":"Năng suất tại khu vực nghiền xi măng trên XHQ",
+    "description-en": "Mid -yield production data in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT918",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao nhiệt vải vụn tại khu vực tiêu hao ",
+    "description-en": "Production data of dehydrated heat consumption in the consumption area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT309",
+    "description-vn": "Dữ liệu sản xuất của chỉ số chất lượng - qf tại khu vực nghiền than",
+    "description-en": "Production data of the quality index - QF in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT526",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - tổng tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Total fly ash in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT409",
+    "description-vn": "Dữ liệu sản xuất của chỉ số chất lượng - qf tại khu vực lò nung",
+    "description-en": "Production data of quality index - QF in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT525",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - tổng xỉ đáy tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Total bottom slag in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT104",
+    "description-vn": "Dữ liệu sản xuất của thời gian hoạt động tại khu vực nguyên liệu",
+    "description-en": "Production data of operating time in the material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT603",
+    "description-vn": "Dữ liệu sản xuất của tổng xm xuất khẩu tại khu vực xuất sản phẩm",
+    "description-en": "Production data of the total export XM in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT815",
+    "description-vn": "Dữ liệu sản xuất của grace xa6 tại khu vực tồn kho",
+    "description-en": "Production data of Grace XA6 in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT707",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm premix - kho 100 tại khu vực nhập nguyên liệu",
+    "description-xhq": "Đá vôi dăm Premix - kho 100 tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of Premix limestone - Warehouse 100 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT521",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - năng suất tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Productivity in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_SR",
+    "description-vn": "Dữ liệu chất lượng của cl_sr tại khu vực clinker",
+    "description-xhq": "Dữ liệu chất lượng của cl_sr tại khu vực clinker trên xhq",
+    "description-en": "Quality data of CL_SR in the Clinker area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT607",
+    "description-vn": "Dữ liệu sản xuất của tổng xm rời xuất khẩu tại khu vực xuất sản phẩm",
+    "description-en": "Production data of the total XM exported XM in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT719",
+    "description-vn": "Dữ liệu sản xuất của than mới 4_trong nước 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of than new 4 in 4b in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT202",
+    "description-vn": "Dữ liệu sản xuất của thời gian hoạt động tại khu vực nghiền liệu",
+    "description-xhq": "Thời gian chạy tại khu vực nghiền bột sống trên XHQ",
+    "description-en": "Production data of operating time in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT588",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm puzzolane tại khu vực nghiền xi măng",
+    "description-en": "Production data of Puzzolane percentage in cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT589",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm tro bay vạn hưng tại khu vực nghiền xi măng",
+    "description-en": "Production data of Van Hung fly ash percentage in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT152",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện tiếp nhận nguyên liệu tại các kho (kho than, kho phụ gia xm) tại khu vực nguyên liệu",
+    "description-en": "Production data of electricity consumption receives raw materials at warehouses (coal warehouse, warehouse XM) in the material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT826",
+    "description-vn": "Dữ liệu sản xuất của giấy pc40 tại khu vực tồn kho",
+    "description-en": "Production data of PC40 paper in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT838",
+    "description-vn": "Dữ liệu sản xuất của dầu fo-r (lò nung) tại khu vực tồn kho",
+    "description-en": "Production data of FO-R oil (furnace) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT840",
+    "description-vn": "Dữ liệu sản xuất của vải vụn tại khu vực tồn kho",
+    "description-en": "Production data of rags in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT839",
+    "description-vn": "Dữ liệu sản xuất của dầu do (tại mỏ khai thác) tại khu vực tồn kho",
+    "description-en": "Production data of oil (at the mining mine) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT861",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát ≥6400 kcal (12 ÷ 23%) tại khu vực tồn kho",
+    "description-en": "Production data of Bao Viet Phat Coal ≥6400 KCAL (12 ÷ 23%) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT852",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm premix-100 tại khu vực tồn kho",
+    "description-en": "Production data of premix-100 limestone in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT856",
+    "description-vn": "Dữ liệu sản xuất của đá sét dăm-40 tại khu vực tồn kho",
+    "description-en": "Production data of clay clay-40 in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT859",
+    "description-vn": "Dữ liệu sản xuất của than tân phù đổng 6750 tại khu vực tồn kho",
+    "description-en": "Production data of Tan Phu Dong 6750 coal in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT863",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát 6400 (chất bốc thấp*) tại khu vực tồn kho",
+    "description-en": "Production data of Bao Viet Phat Coal 6400 (low quality*) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT877",
+    "description-vn": "Dữ liệu sản xuất của thạch cao thái lan (*) tại khu vực tồn kho",
+    "description-en": "Production data of Thai plasterboard (*) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT871",
+    "description-vn": "Dữ liệu sản xuất của vải vụn việt phát (**) tại khu vực tồn kho",
+    "description-en": "Production data of Viet Phat Rags (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT875",
+    "description-vn": "Dữ liệu sản xuất của dầu do 0.05%s(hotgas) (xi măng) tại khu vực tồn kho",
+    "description-en": "Production data of oil due to 0.05%S (hotgas) (cement) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT854",
+    "description-vn": "Dữ liệu sản xuất của premix kho 40.000 tại khu vực tồn kho",
+    "description-en": "Production data of Premix warehouse 40,000 in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT206",
+    "description-vn": "Dữ liệu sản xuất của chỉ số oee tại khu vực nghiền liệu",
+    "description-en": "Production data of the OEE index in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT520",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - thời gian hoạt động tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Operating time in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT516",
+    "description-vn": "Dữ liệu sản xuất của tổng xỉ đáy quy khô tại khu vực nghiền xi măng",
+    "description-en": "Production data of the total dry bottom slag in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT801",
+    "description-vn": "Dữ liệu sản xuất của xm tổng tồn cuối tại khu vực tồn kho",
+    "description-xhq": "XM Tổng tồn cuối tại khu vực tồn kho trên XHQ",
+    "description-en": "Production data of the last total inventory in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT229",
+    "description-vn": "Dữ liệu sản xuất của hệ số độ ẩm cân hgls tại khu vực nghiền liệu",
+    "description-en": "Production data of HGLS weight humidity coefficient in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT426",
+    "description-vn": "Dữ liệu sản xuất của nhiệt trị dầu tại khu vực lò nung",
+    "description-en": "Production data of oil treatment in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT316",
+    "description-vn": "Dữ liệu sản xuất của sản lượng than thô coal1 cấp máy nghiền tại khu vực nghiền than",
+    "description-en": "Production data of coal1 coal production",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT562",
+    "description-vn": "Dữ liệu sản xuất của xá cn- % tro bay tại khu vực nghiền xi măng",
+    "description-en": "Production data of CN Xa- % of fly ash in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT408",
+    "description-vn": "Dữ liệu sản xuất của chỉ số hiệu suất - pf tại khu vực lò nung",
+    "description-en": "Production data of the performance index - PF in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT527",
+    "description-vn": "Dữ liệu sản xuất của xm c150 - tổng phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of XM C150 - Total additives in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT769",
+    "description-vn": "Dữ liệu sản xuất của thạch cao oman tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Oman gypsum in raw material import area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT578",
+    "description-vn": "Dữ liệu sản xuất của tiêu thụ điện sản xuất c150 tại khu vực nghiền xi măng",
+    "description-en": "Production data of electricity consumption C150 in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT586",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm đá vôi phụ gia tại khu vực nghiền xi măng",
+    "description-en": "Production data of the percentage of limestone additives in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT46",
+    "description-vn": "Dữ liệu sản xuất của sự cố vận hành tại khu vực hoạt động cối đập",
+    "description-en": "Production data of operation incidents in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT51",
+    "description-vn": "Dữ liệu sản xuất của sự cố vận hành tại khu vực hoạt động cối đập(băng tải dài)",
+    "description-en": "Production data of operating incidents in the dam area (long conveyor belt)",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT835",
+    "description-vn": "Dữ liệu sản xuất của than nhập khẩu tại khu vực tồn kho",
+    "description-en": "Production data of coal imported in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT828",
+    "description-vn": "Dữ liệu sản xuất của pp pcb40 vicem tại khu vực tồn kho",
+    "description-en": "Production data of PP PCB40 Vicem in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT831",
+    "description-vn": "Dữ liệu sản xuất của pp. pcb40(màu beige) tại khu vực tồn kho",
+    "description-en": "Production data of PP.PCB40 (beige) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT844",
+    "description-vn": "Dữ liệu sản xuất của đá vôi chất lượng cao tại khu vực tồn kho",
+    "description-en": "Production data of high quality limestone in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT853",
+    "description-vn": "Dữ liệu sản xuất của đá sét dăm-100 tại khu vực tồn kho",
+    "description-en": "Production data of clay clay stone 100 in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT868",
+    "description-vn": "Dữ liệu sản xuất của than vtb đại dương 6750 (*) tại khu vực tồn kho",
+    "description-en": "Production data of VTB Ocean Coal 6750 (*) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT846",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm tại khu vực tồn kho",
+    "description-en": "Production data of limestone stone in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT872",
+    "description-vn": "Dữ liệu sản xuất của vải vụn phương nam (**) tại khu vực tồn kho",
+    "description-en": "Production data of Phuong Nam Rags (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT881",
+    "description-vn": "Dữ liệu sản xuất của xỉ đức việt (*) tại khu vực tồn kho",
+    "description-en": "Production data of Duc Viet slag (*) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT857",
+    "description-vn": "Dữ liệu sản xuất của than e&e 4a1 6400 (chất bốc 5-8%)* tại khu vực tồn kho",
+    "description-en": "Production data of coal E&E 4A1 6400 (loaded 5-8%)* in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT866",
+    "description-vn": "Dữ liệu sản xuất của than omanco 6750 (*) tại khu vực tồn kho",
+    "description-en": "Production data of Omanco 6750 (*) in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT795",
+    "description-vn": "Dữ liệu sản xuất của quỳnh trung tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Quynh Trung in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT800",
+    "description-vn": "Dữ liệu sản xuất của xỉ mới 5 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new slag 5 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT782",
+    "description-vn": "Dữ liệu sản xuất của xỉ mới 3 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of New 3 slag in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT784",
+    "description-vn": "Dữ liệu sản xuất của xỉ mới 5 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new slag 5 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT153",
+    "description-vn": "Dữ liệu sản xuất của % đá vôi dăm tại khu vực nguyên liệu",
+    "description-en": "Production data of % limestone in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT725",
+    "description-vn": "Dữ liệu sản xuất của than mới 3 nhập khẩu 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 3 Import 4B in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT738",
+    "description-vn": "Dữ liệu sản xuất của than mới 4 nhập khẩu 4a tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than 4 Import 4A in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT729",
+    "description-vn": "Dữ liệu sản xuất của than cám vicem (e&e) loại 4a.1 ≥6400 kcal (5.5 ÷ 8%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than bran vicem (E&E) type 4A.1 ≥6400 KCAL (5.5 ÷ 8%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT749",
+    "description-vn": "Dữ liệu sản xuất của than omanco 6750 (*) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Omanco 6750 (*) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT751",
+    "description-vn": "Dữ liệu sản xuất của than tuấn sơn 558 ≥6400 kcal (6.5 ÷ 20%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Tuan Son 558 ≥6400 kcal (6.5 ÷ 20%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT750",
+    "description-vn": "Dữ liệu sản xuất của than tuấn sơn 558 ≥6400 kcal (5.5 ÷ 23%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Tuan Son 558 ≥6400 kcal (5.5 ÷ 23%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT773",
+    "description-vn": "Dữ liệu sản xuất của thạch cao mới 2 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new plaster 2 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2501",
+    "description-vn": "Dữ liệu sản xuất của than bột cacbon ≥4900 kcal (≥4.5%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than carbon powder ≥4900 kcal (≥4.5%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT513",
+    "description-vn": "Dữ liệu sản xuất của tổng clinker qua cân tại khu vực nghiền xi măng",
+    "description-en": "Production data of the total clinker through the scale in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT573",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân sai lệch cân thạch cao tại khu vực nghiền xi măng",
+    "description-en": "Production data of the gypsum weight deviation coefficient in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT315",
+    "description-vn": "Dữ liệu sản xuất của sản lượng than thô coal2 vào kho tại khu vực nghiền than",
+    "description-en": "Production data of coal2 coal production in the warehouse in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT413",
+    "description-vn": "Dữ liệu sản xuất của bột liệu cấp lò- qua cân tại khu vực lò nung",
+    "description-en": "Production data of furnace supply dough in the scale",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT579",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện trung bình sản xuất pcb40 tại khu vực nghiền xi măng",
+    "description-xhq": "Tiêu hao điện PCB40 tại khu vực nghiền xi măng trên XHQ",
+    "description-en": "Production data of medium power consumption of PCB40 production in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT585",
+    "description-vn": "Dữ liệu sản xuất của sự cố khác tại khu vực nghiền xi măng",
+    "description-en": "Production data of other incidents in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT584",
+    "description-vn": "Dữ liệu sản xuất của sự cố công nghệ tại khu vực nghiền xi măng",
+    "description-en": "Production data of technology incidents in cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT140",
+    "description-vn": "Dữ liệu sản xuất của thời gian chạy đá vôi chất lượng cao tại khu vực nguyên liệu",
+    "description-en": "Production data of high quality limestone running in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT132",
+    "description-vn": "Dữ liệu sản xuất của sản lượng premix nhập kho 100kt tại khu vực nguyên liệu",
+    "description-xhq": "Sản lượng tại kho 100KT trên XHQ / Sản lượng HHNL nhập kho 100KT tại phân đoạn chuẩn bị nguyên liệu trên XHQ ",
+    "description-en": "Production data of 100KT inventory premix in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT130",
+    "description-vn": "Dữ liệu sản xuất của hệ số cân tổng qua côi 2e1bc01 tại khu vực nguyên liệu",
+    "description-en": "Production data of the total weighing coefficient through 2E1BC01 in the material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT147",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện sx đá đá phụ gia xi măng tại khu vực nguyên liệu",
+    "description-en": "Production data of electricity and stone production of cement additives in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT843",
+    "description-vn": "Dữ liệu sản xuất của đá vôi hỗn hợp tại khu vực tồn kho",
+    "description-en": "Production data of mixed limestone in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT845",
+    "description-vn": "Dữ liệu sản xuất của latarit(tại mặt bằng nm để chuyển cho nmkl) tại khu vực tồn kho",
+    "description-en": "Production data of Latarit (at NM to transfer to NMKL) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT842",
+    "description-vn": "Dữ liệu sản xuất của bột sống phối liệu tại khu vực tồn kho",
+    "description-en": "Production data of living powder coordinated in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT847",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm sx hỗn hợp nguyên liệu tại khu vực tồn kho",
+    "description-en": "Production data of limestone stone produces raw material mixed in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT850",
+    "description-vn": "Dữ liệu sản xuất của đất sét dăm tại khu vực tồn kho",
+    "description-en": "Production data of macadam clay in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT849",
+    "description-vn": "Dữ liệu sản xuất của laterit tại khu vực tồn kho",
+    "description-en": "Production data of Laterit in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT848",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm chất lượng cao tại khu vực tồn kho",
+    "description-en": "Production data of high quality shavings in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT869",
+    "description-vn": "Dữ liệu sản xuất của vải vụn khoa hoàng minh (**) tại khu vực tồn kho",
+    "description-en": "Production data of royal rags (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT780",
+    "description-vn": "Dữ liệu sản xuất của xỉ vạn hưng tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Van Hung slag in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT799",
+    "description-vn": "Dữ liệu sản xuất của vạn minh đạt tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Van Minh Dat in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT798",
+    "description-vn": "Dữ liệu sản xuất của an lộc phát tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of an Loc Phat in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT796",
+    "description-vn": "Dữ liệu sản xuất của nguyên thanh hương tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Nguyen Thanh Huong in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT590",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm tro bay orient wealth tại khu vực nghiền xi măng",
+    "description-en": "Production data of Orient Wealth percentage percentage in cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT720",
+    "description-vn": "Dữ liệu sản xuất của than mới 5_trong nước 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than New 5 in the 4B country in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT722",
+    "description-vn": "Dữ liệu sản xuất của than cám vicem (e&e) loại 4b.14 ≥5950 (10 ÷ 14%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Cam Vicem (E&E) Type 4b.14 ≥5950 (10 ÷ 14%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT728",
+    "description-vn": "Dữ liệu sản xuất của than trong nước tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of domestic coal in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT724",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát ≥5800 kcal (15 ÷ 27%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Bao Viet Phat ≥5800 KCAL (15 ÷ 27%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT743",
+    "description-vn": "Dữ liệu sản xuất của than thuận an ≥6400 kcal (5.5 ÷ 23%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Thuan An ≥6400 kcal (5.5 ÷ 23%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT755",
+    "description-vn": "Dữ liệu sản xuất của nhân trí tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Tri in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT774",
+    "description-vn": "Dữ liệu sản xuất của thạch cao mới 3 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new plaster 3 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT631",
+    "description-vn": "Dữ liệu sản xuất của tổng xuất clinker(điều chuyển nội bộ + bán ngoài) tại khu vực xuất sản phẩm",
+    "description-en": "Production data of the total clinker (internal + external transfer) in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2005",
+    "description-vn": "Dữ liệu sản xuất của than mới 5 nhập khẩu 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 5 imported 4B in raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT593",
+    "description-vn": "Dữ liệu sản xuất của hệ số reject xm tại khu vực nghiền xi măng",
+    "description-en": "Production data of Reject XM in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT254",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm đất sét dăm tại khu vực nghiền liệu",
+    "description-en": "Production data of moisture moisture in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT255",
+    "description-vn": "Dữ liệu sản xuất của hệ số ẩm đá vôi dăm tại khu vực nghiền liệu",
+    "description-en": "Production data of moisture moisture coefficient in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2102",
+    "description-vn": "Dữ liệu sản xuất của dăm gỗ mới 1 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new wood chips 1 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT876",
+    "description-vn": "Dữ liệu sản xuất của thạch cao oman (*) tại khu vực tồn kho",
+    "description-en": "Production data of Oman plaster (*) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT777",
+    "description-vn": "Dữ liệu sản xuất của xỉ đáy tại khu vực nhập nguyên liệu",
+    "description-xhq":"Xỉ đáy tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of bottom slag in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT758",
+    "description-vn": "Dữ liệu sản xuất của phước tiến tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Phuoc Tien in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT778",
+    "description-vn": "Dữ liệu sản xuất của xỉ đức thành tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Duc Thanh slag in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT776",
+    "description-vn": "Dữ liệu sản xuất của thạch cao mới 5 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of New gypsum 5 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT157",
+    "description-vn": "Dữ liệu sản xuất của % đá vôi dăm premix x kho 40kt tại khu vực nguyên liệu",
+    "description-en": "Production data of % limestone premix premix x warehouse 40KT in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT721",
+    "description-vn": "Dữ liệu sản xuất của than nhập khẩu tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of imported coal in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT735",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát ≥6400 kcal (5.5 ÷ 20%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Bao Viet Phat ≥6400 KCAL (5.5 ÷ 20%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT726",
+    "description-vn": "Dữ liệu sản xuất của than mới 4 nhập khẩu 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 4 imported 4B in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT733",
+    "description-vn": "Dữ liệu sản xuất của than mới 4 trong nước 4a tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 4 in 4A in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT630",
+    "description-vn": "Dữ liệu sản xuất của % phối silo e tại khu vực xuất sản phẩm",
+    "description-en": "Production data of % Silo E coordination in product production area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2006",
+    "description-vn": "Dữ liệu sản xuất của than mới 6 nhập khẩu 4b tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 6 Import 4B in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2018",
+    "description-vn": "Dữ liệu sản xuất của ctsh mới 4 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of CTSH 4 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2104",
+    "description-vn": "Dữ liệu sản xuất của dăm gỗ mới 3 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new wood chips 3 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT790",
+    "description-vn": "Dữ liệu sản xuất của chất trợ nghiền hkc 3sh.2 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of HKC 3SH.2 grinding substance in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT789",
+    "description-vn": "Dữ liệu sản xuất của đá giàu silic tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of silicon - rich stone in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT792",
+    "description-vn": "Dữ liệu sản xuất của tro bay 268 tại khu vực nhập nguyên liệu",
+    "description-en": "Manufacturing data of flight ash 268 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT788",
+    "description-vn": "Dữ liệu sản xuất của đvpg tại khu vực nhập nguyên liệu",
+    "description-xhq": "ĐVPG tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of ĐVPG in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT158",
+    "description-vn": "Dữ liệu sản xuất của % đá sét dăm kho 40kt tại khu vực nguyên liệu",
+    "description-en": "Production data of % clay stone 40KT in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT155",
+    "description-vn": "Dữ liệu sản xuất của % đá vôi dăm premix x kho 100kt tại khu vực nguyên liệu",
+    "description-xhq": " % đá vôi dăm premix x kho 100kt trên XHQ",
+    "description-en": "Production data of % limestone premix x warehouse 100KT in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT734",
+    "description-vn": "Dữ liệu sản xuất của than nhập khẩu tại khu vực nhập nguyên liệu",
+    "description-xhq": "Than nhập khẩu tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of imported coal in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT731",
+    "description-vn": "Dữ liệu sản xuất của than mới 2 trong nước 4a tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of than new 2 in water 4a in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT742",
+    "description-vn": "Dữ liệu sản xuất của than tân phù đổng 6750 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Tan Phu Dong 6750 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT745",
+    "description-vn": "Dữ liệu sản xuất của than long thuận ≥6400 kcal (6.5 ÷ 20%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Long Thuan ≥6400 kcal (6.5 ÷ 20%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT748",
+    "description-vn": "Dữ liệu sản xuất của than omanco ≥6400 kcal (12 ÷ 20%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Omanco ≥6400 Kcal (12 ÷ 20%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT629",
+    "description-vn": "Dữ liệu sản xuất của % phối silo d tại khu vực xuất sản phẩm",
+    "description-en": "Production data of % Silo D coordination in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT888",
+    "description-vn": "Dữ liệu sản xuất của tồn silo e tại khu vực tồn kho",
+    "description-en": "Production data of Silo E in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT50",
+    "description-vn": "Dữ liệu sản xuất của sự cố cơ tại khu vực hoạt động cối đập(băng tải dài)",
+    "description-en": "Production data of mechanical incidents in the dam area (long conveyor belt)",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT326",
+    "description-vn": "Dữ liệu sản xuất của hệ số sai lệch cân viên nén mùn cưa tại khu vực nghiền than",
+    "description-en": "Production data of the coefficient of deviation of sawdust tablets in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2014",
+    "description-vn": "Dữ liệu sản xuất của chất trợ nghiền dự phòng 2 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of backup grinding substances 2 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT325",
+    "description-vn": "Dữ liệu sản xuất của hệ số sai lệch cân vải vụn tại khu vực nghiền than",
+    "description-en": "Production data of ragged fabric weighing coefficient in coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2202",
+    "description-vn": "Dữ liệu sản xuất của đất sét dăm (giàu silic) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of macadam clay (rich in silicon) in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2020",
+    "description-vn": "Dữ liệu sản xuất của phúc thiên long tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Phuc Thien Long in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT145",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện premix nhập kho 40kt tại khu vực nguyên liệu",
+    "description-en": "Production data of Premix consumption of 40KT inventory in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT833",
+    "description-vn": "Dữ liệu sản xuất của than cám tại khu vực tồn kho",
+    "description-en": "Production data of coal bran in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT858",
+    "description-vn": "Dữ liệu sản xuất của than e&e 4a tnkpt 6400 (chất bôc 10-16%)** tại khu vực tồn kho",
+    "description-en": "Production data of coal E&E 4A TNKPT 6400 (pockets 10-16%) ** in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT883",
+    "description-vn": "Dữ liệu sản xuất của đá giàu silic tại khu vực tồn kho",
+    "description-en": "Production data of silicon -rich rocks in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT860",
+    "description-vn": "Dữ liệu sản xuất của than thuận an ≥6400 kcal (5.5 ÷ 23%) tại khu vực tồn kho",
+    "description-en": "Production data of Thuan An Coal ≥6400 KCAL (5.5 ÷ 23%) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT786",
+    "description-vn": "Dữ liệu sản xuất của cát kết tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of sand in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT793",
+    "description-vn": "Dữ liệu sản xuất của tro bay vạn hưng tại khu vực nhập nguyên liệu",
+    "description-xhq": "Tro bay Vạn Hưng tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of Van Hung flight ash in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT747",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát ≥6400 kcal (10 ÷ 20%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Bao Viet Phat ≥6400 kcal (10 ÷ 20%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT740",
+    "description-vn": "Dữ liệu sản xuất của than cảng sài gòn ≥6400 kcal (5.5 ÷ 23%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Port Saigon ≥6400 KCAL (5.5 ÷ 23%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT771",
+    "description-vn": "Dữ liệu sản xuất của thạch cao khan thái lan tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Thailand anhydrous plaster in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT772",
+    "description-vn": "Dữ liệu sản xuất của thạch cao nhân tạo tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of artificial plaster in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT592",
+    "description-vn": "Dữ liệu sản xuất của điện vô bao tại khu vực nghiền xi măng",
+    "description-en": "Production data of electric power in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT628",
+    "description-vn": "Dữ liệu sản xuất của % phối silo c tại khu vực xuất sản phẩm",
+    "description-en": "Production data of % Milo C in product production area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2013",
+    "description-vn": "Dữ liệu sản xuất của chất trợ nghiền dự phòng 1 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of backup grinding substances 1 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2015",
+    "description-vn": "Dữ liệu sản xuất của á châu tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Asia in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_XCN_CKT",
+    "description-vn": "Dữ liệu chất lượng của xcn_ckt tại khu vực nghiền xi măng ",
+    "description-xhq": "Dữ liệu chất lượng của xá công nghiệp ckt tại khu vực nghiền xi măng trên xhq",
+    "description-en": "Quality data of XCN_CKT in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT580",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện trung bình sản xuất xá cn tại khu vực nghiền xi măng",
+    "description-xhq": "Tiêu hao điện Xá CN tại khu vực nghiền xi măng trên XHQ",
+    "description-en": "Production data of average electricity consumption of CN production in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT251",
+    "description-vn": "Dữ liệu sản xuất của sự cố điện tại khu vực nghiền liệu",
+    "description-en": "Production data of electrical problems in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT252",
+    "description-vn": "Dữ liệu sản xuất của sự cố công nghệ tại khu vực nghiền liệu",
+    "description-en": "Production data of technology incidents in the grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT441",
+    "description-vn": "Dữ liệu sản xuất của sự cố công nghệ tại khu vực lò nung",
+    "description-en": "Production data of technology incidents in the furnace area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT138",
+    "description-vn": "Dữ liệu sản xuất của thời gian hhnl nhập kho 100kt tại khu vực nguyên liệu",
+    "description-en": "Production data of HHNL time imported 100KT in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT142",
+    "description-vn": "Dữ liệu sản xuất của thời gian chạy đá giàu silic tại khu vực nguyên liệu",
+    "description-en": "Production data of silicon -rich rock running time in raw material areas",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT143",
+    "description-vn": "Dữ liệu sản xuất của thời gian chạy đá laterite tại khu vực nguyên liệu",
+    "description-en": "Production data of Laterite Running Time in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT146",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện sx đá vôi chất lượng cao tại khu vực nguyên liệu",
+    "description-en": "Production data of high quality limestone production in raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT151",
+    "description-vn": "Dữ liệu sản xuất của tiêu hao điện tiếp nhận bằng băng tải dài (đá vôi phụ gia và đá phụ gia) tại khu vực nguyên liệu",
+    "description-xhq": "Tiêu hao điện tiếp nhận bằng băng tải dài (đá vôi phụ gia và đá phụ gia) tại khu vực kho 40KT trên XHQ",
+    "description-en": "Production data of electricity consumption received by long conveyor (limestone additives and additives) in the material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT44",
+    "description-vn": "Dữ liệu sản xuất của sự cố điện tại khu vực hoạt động cối đập",
+    "description-en": "Production data of electricity incidents in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT47",
+    "description-vn": "Dữ liệu sản xuất của số lần dừng lỗi tại khu vực hoạt động cối đập(băng tải dài)",
+    "description-en": "Production data of the number of stops at the macaron activity area (long conveyor belt)",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT834",
+    "description-vn": "Dữ liệu sản xuất của than trong nước (chưa quy khô) tại khu vực tồn kho",
+    "description-en": "Production data of domestic coal (not dry) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT851",
+    "description-vn": "Dữ liệu sản xuất của premix kho 100.000 tại khu vực tồn kho",
+    "description-en": "Production data of Premix warehouse 100,000 in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT880",
+    "description-vn": "Dữ liệu sản xuất của xỉ đức thành (**) tại khu vực tồn kho",
+    "description-en": "Production data of Duc Thanh slag (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT855",
+    "description-vn": "Dữ liệu sản xuất của đá vôi dăm premix-40 tại khu vực tồn kho",
+    "description-en": "Production data of Premix-40 shavings in inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT862",
+    "description-vn": "Dữ liệu sản xuất của than long thuận 6400 (**) tại khu vực tồn kho",
+    "description-en": "Production data of Long Thuan coal 6400 (**) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT878",
+    "description-vn": "Dữ liệu sản xuất của thạch cao khan thái lan (*) tại khu vực tồn kho",
+    "description-en": "Production data of Thai Khan Thailand plaster (*) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT783",
+    "description-vn": "Dữ liệu sản xuất của xỉ mới 4 tại khu vực nhập nguyên liệu",
+    "description-xhq": "Xỉ mới 4 tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of New 4 slag in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT787",
+    "description-vn": "Dữ liệu sản xuất của đá vôi-phụ gia tại khu vực nhập nguyên liệu",
+    "description-xhq": "Đá vôi phụ gia tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of limestone-family in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT791",
+    "description-vn": "Dữ liệu sản xuất của chất trợ nghiền hkc 8xplus_xá tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of HKC 8XPLUS_Xá grinders in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT797",
+    "description-vn": "Dữ liệu sản xuất của an an tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of an An in the raw material import area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT727",
+    "description-vn": "Dữ liệu sản xuất của than 4a tại khu vực nhập nguyên liệu",
+    "description-xhq": "Than 4A tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of coal 4A in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT744",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát ≥6400 kcal (12 ÷ 23%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Bao Viet Phat ≥6400 kcal (12 ÷ 23%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT596",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trămtro bay mới 3 tại khu vực nghiền xi măng",
+    "description-en": "Production data of the new flight percentage of ash 3 in the cement grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT324",
+    "description-vn": "Dữ liệu sản xuất của hệ số sai lệch cân bã vỏ hạt điều tại khu vực nghiền than",
+    "description-en": "Production data of the coefficient of cashew nut weight deviation in coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2100",
+    "description-vn": "Dữ liệu sản xuất của carbon đen tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of black carbon in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT43",
+    "description-vn": "Dữ liệu sản xuất của sản lượng (đv-pgxm) tại khu vực hoạt động cối đập",
+    "description-en": "Production data of output (ĐV-PGXM) in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT33",
+    "description-vn": "Dữ liệu sản xuất của sản lượng (đv-clc) tại khu vực hoạt động cối đập",
+    "description-en": "Production data of output (ĐV-CLC) in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT22",
+    "description-vn": "Dữ liệu sản xuất của sản lượng (đá premix) tại khu vực hoạt động cối đập",
+    "description-en": "Production data of output (premix) in the dam area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT874",
+    "description-vn": "Dữ liệu sản xuất của dầu do 0.05%s (cơ giới) (clinker) tại khu vực tồn kho",
+    "description-en": "Production data of oil due to 0.05%S (mechanical) (clinker) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT864",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát 6400 (chất bốc cao**) tại khu vực tồn kho",
+    "description-en": "Production data of Bao Viet Phat Coal 6400 (high loader **) in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT865",
+    "description-vn": "Dữ liệu sản xuất của than omanco 6400 (*) tại khu vực tồn kho",
+    "description-en": "Production data of Omanco 6400 (*) coal in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT785",
+    "description-vn": "Dữ liệu sản xuất của puzơlan tại khu vực nhập nguyên liệu",
+    "description-en": "Puzlan's production data in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT781",
+    "description-vn": "Dữ liệu sản xuất của xỉ mới 2 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of new slag 2 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT723",
+    "description-vn": "Dữ liệu sản xuất của than cám vicem (e&e) loại 4b.1 ≥5950 (5 ÷ 8%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Cam Vicem (E&E) Type 4B.1 ≥5950 (5 ÷ 8%) at the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT732",
+    "description-vn": "Dữ liệu sản xuất của than mới 3_trong nước 4a tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than new 3 in water 4a in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT741",
+    "description-vn": "Dữ liệu sản xuất của than long thuận ≥6200 kcal (10 ÷ 20%) tại khu vực nhập nguyên liệu",
+    "description-xhq":"Than Long Thuận ≥6200 KCAL (10 ÷ 20%) tại khu vực nhập nguyên liệu trên XHQ",
+    "description-en": "Production data of Than Long Thuan ≥6200 kcal (10 ÷ 20%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT770",
+    "description-vn": "Dữ liệu sản xuất của thạch cao thái lan tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Thai plaster in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT626",
+    "description-vn": "Dữ liệu sản xuất của % phối silo a tại khu vực xuất sản phẩm",
+    "description-en": "Production data of % Milo A in the product area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT48",
+    "description-vn": "Dữ liệu sản xuất của thời gian dừng lỗi tại khu vực hoạt động cối đập (băng tải dài)",
+    "description-en": "Production data of stopping time at the macaron activity area (long conveyor)",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_100KT_AR",
+    "description-vn": "Dữ liệu chất lượng của ar tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt",
+    "description-xhq": "Dữ liệu chất lượng của ar tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 100kt trên xhq",
+    "description-en": "AR quality data in the mixture of raw materials & clay 100KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2011",
+    "description-vn": "Dữ liệu sản xuất của ctsh mới 1 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of CTSH 1 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2016",
+    "description-vn": "Dữ liệu sản xuất của ctsh mới 2 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of CTSH 2 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2017",
+    "description-vn": "Dữ liệu sản xuất của ctsh mới 3 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of CTSH 3 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT322",
+    "description-vn": "Dữ liệu sản xuất của hệ số sai lệch cân than đốt trên 2 béc tại khu vực nghiền than",
+    "description-en": "Production data of coal scaling evaporation on 2 torsions in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT323",
+    "description-vn": "Dữ liệu sản xuất của hệ số sai lệch cân dầu for/ado(lò nung) tại khu vực nghiền than",
+    "description-en": "Production data of For/Ado oil weight deflection coefficient (furnace) in the coal grinding area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT779",
+    "description-vn": "Dữ liệu sản xuất của xỉ đức việt tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Duc Viet slag in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT794",
+    "description-vn": "Dữ liệu sản xuất của tro bay orient wealth tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Orient Wealth ash in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT154",
+    "description-vn": "Dữ liệu sản xuất của % đá sét dăm tại khu vực nguyên liệu",
+    "description-en": "Production data of % clay stone in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "_PGNAA_SO3_CV.IO.Signal.Value",
+    "description-vn": "Chỉ số SO3 của Quy Trình Công Nghệ tại Phân Đoạn Chuẩn Bị Nguyên Liệu",
+    "description-xhq": "Chỉ số SO3 của Quy Trình Công Nghệ tại Phân Đoạn Chuẩn Bị Nguyên Liệu trên XHQ",
+    "description-en": "Production data of % clay stone in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT156",
+    "description-vn": "Dữ liệu sản xuất của % đá sét dăm kho 100kt tại khu vực nguyên liệu",
+    "description-xhq": " % đá sét dăm kho 100kt trên XHQ",
+    "description-en": "Production data of % clay stone with 100KT warehouse in the raw material area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT736",
+    "description-vn": "Dữ liệu sản xuất của than long thuận ≥6400 kcal (10 ÷ 23%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Long Thuan ≥6400 KCAL (10 ÷ 23%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT730",
+    "description-vn": "Dữ liệu sản xuất của than mới 1 trong nước 4a tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than New 1 in water 4a in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT737",
+    "description-vn": "Dữ liệu sản xuất của than long thuận ≥5350 kcal (12÷ 23%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Long Thuan ≥5350 Kcal (12 ÷ 23%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT739",
+    "description-vn": "Dữ liệu sản xuất của than cám vicem (e&e) loại 4a ≥6400 kcal (10 ÷ 16%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than bran vicem (E&E) type 4A ≥6400 kcal (10 ÷ 16%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT746",
+    "description-vn": "Dữ liệu sản xuất của than bảo việt phát ≥6400 kcal (6.5 ÷ 20%) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Than Bao Viet Phat ≥6400 KCAL (6.5 ÷ 20%) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT627",
+    "description-vn": "Dữ liệu sản xuất của % phối silo b tại khu vực xuất sản phẩm",
+    "description-en": "Production data of % Silo B in product production area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT887",
+    "description-vn": "Dữ liệu sản xuất của tồn silo d tại khu vực tồn kho",
+    "description-en": "Production data of Silo D inventory in the inventory area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT49",
+    "description-vn": "Dữ liệu sản xuất của sự cố điện tại khu vực hoạt động cối đập(băng tải dài)",
+    "description-en": "Production data of electricity incidents in the dam area (long conveyor)",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_MgO",
+    "description-vn": "Dữ liệu chất lượng của cl_mgo tại khu vực clinker",
+    "description-en": "Quality data of Cl_MGO in the Clinker area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2010",
+    "description-vn": "Dữ liệu sản xuất của chất thải sinh hoạt đã qua sơ chế (rdf) tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of processed domestic waste (RDF) in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2012",
+    "description-vn": "Dữ liệu sản xuất của chất trợ nghiền hkc 8xplus_bao tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of HKC 8xplus_bao grinding substance in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2019",
+    "description-vn": "Dữ liệu sản xuất của ctsh mới 5 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of ctsh 5 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2201",
+    "description-vn": "Dữ liệu sản xuất của đất sét dăm trong hỗn hợp nguyên liệu tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of macadam clay in the mixture of raw materials in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2103",
+    "description-vn": "Dữ liệu sản xuất của dăm gỗ mới 2 tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of the new wood chips 2 in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_PREMIX_40KT_AR",
+    "description-vn": "Dữ liệu chất lượng của ar tại khu vực hỗn hợp nguyên liệu đá dăm & sét kho 40kt",
+    "description-en": "Quality data of AR in the mixture of chips & clay 40KT",
+    "type": "float"
+  },
+  {
+    "tag": "BP_KSCL_CL_CaOf",
+    "description-vn": "Dữ liệu chất lượng của cl_caof tại khu vực clinker",
+    "description-en": "Quality data of Cl_CaOF in the Clinker area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT594",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm tro bay mới 1 tại khu vực nghiền xi măng",
+    "description-en": "Production data of the new percentage of flying ash 1 in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT595",
+    "description-vn": "Dữ liệu sản xuất của hệ số phần trăm tro bay mới 2 tại khu vực nghiền xi măng",
+    "description-en": "Production data of the new percentage of flying ash 2 in the cement crushing area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2008",
+    "description-vn": "Dữ liệu sản xuất của á châu tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Asia in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2007",
+    "description-vn": "Dữ liệu sản xuất của môi trường việt tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Viettagse environment in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2009",
+    "description-vn": "Dữ liệu sản xuất của tây đô xanh tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Tay Do Xanh in the imported area",
+    "type": "float"
+  },
+  {
+    "tag": "BP_DMKTKT2101",
+    "description-vn": "Dữ liệu sản xuất của đại phát lộc tại khu vực nhập nguyên liệu",
+    "description-en": "Production data of Dai Phat Loc in the material imported area",
+    "type": "float"
+  },
+  {
+    "tag": "_2D1AY02DRH01_K6101.IO.Signal.Value",
+    "description-vn": "Set point của chỉ số 2D1.AY02 tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Set point của chỉ số 2D1.AY02 tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Set point of the index 2D1.AY02 at the segment of preparing raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "_2D1AY01DRH01_K6101.IO.Signal.Value",
+    "description-vn": "Set point của chỉ số 2D1.AY01 tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Set point của chỉ số 2D1.AY01 tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": "Set point of the index 2D1.AY01 at the segment of preparing raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "_PGNAA_CaO_CV.IO.Signal.Value",
+    "description-vn": "Chỉ số CaO của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Chỉ số CaO của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": " The CaO of the technological process at the segment of preparing raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "_PGNAA_SiO2_CV.IO.Signal.Value",
+    "description-vn": "Chỉ số SiO2 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Chỉ số SiO2 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": " The SiO2 of the technological process at the segment of preparing raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "_PGNAA_LSF_CV.IO.Signal.Value",
+    "description-vn": "Chỉ số LSF của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Chỉ số LSF của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": " The LSF of the technological process at the segment of preparing raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "2E1BW01XCC01_TOT",
+    "description-vn": "Bộ đếm cân băng tải của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Bộ đếm cân băng tải của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": "Conveyor weighing counter of the index 2E1BW01 of the technological process at the segment of preparation of raw materials",
+    "type": "float"
+  },
+  {
+    "tag": "2E1BW01XCC01_PV",
+    "description-vn": "Tốc độ cấp liệu của cân băng tải của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Tốc độ cấp liệu của cân băng tải của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": " The speed of the conveyor scales of the 2E1BW01 scales of the technological process at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV01_I",
+    "description-vn": "Động cơ máy nghiền sơ cấp 1 dòng điện của chỉ số CỐI ĐẬP SƠ CẤP 2D1.CR01 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Động cơ máy nghiền sơ cấp 1 dòng điện của chỉ số CỐI ĐẬP SƠ CẤP 2D1.CR01 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": "The primary elementary crushing engine of the 2D first -level base mortar index.",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV02_I",
+    "description-vn": "Động cơ máy nghiền sơ cấp 2 dòng điện của chỉ số CỐI ĐẬP SƠ CẤP 2D1.CR01 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Động cơ máy nghiền sơ cấp 2 dòng điện của chỉ số CỐI ĐẬP SƠ CẤP 2D1.CR01 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": " The primary primary crushing engine of the 2D 1st -level primary mortar index.",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV02_I",
+    "description-vn": "Động cơ máy nghiền sơ cấp 2 dòng điện của chỉ số CỐI ĐẬP SƠ CẤP 2D1.CR01 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Động cơ máy nghiền sơ cấp 2 dòng điện của chỉ số CỐI ĐẬP SƠ CẤP 2D1.CR01 của quy trình công nghệ tại phân đoạn chuẩn bị nguyên liệu trên xhq",
+    "description-en": " The primary primary crushing engine of the 2D 1st -level primary mortar index.",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01BEA01_T8101",
+    "description-vn": "Nhiệt độ ổ đỡ 1 của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T1) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 1 của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T1) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 1 Temperature of Drive 1 (RM Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR01 (T1) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01BEA01_T8102",
+    "description-vn": "Nhiệt độ ổ đỡ 2 của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T2) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 2 của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T2) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 2 Temperature of Drive 1 (RM Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR01 (T2) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01BEA02_T8101",
+    "description-vn": "Nhiệt độ ổ đỡ 1 của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T3) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 1 của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T3) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 1 Temperature of Drive 2 (RM Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR01 (T3) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01BEA02_T8102",
+    "description-vn": "Nhiệt độ ổ đỡ 2 của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T4) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 2 của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T4) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 2 Temperature of Drive 2 (RM Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR01 (T4) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV01_T8104",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T5) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T5) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 1 (RM Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR01 (T5) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV01_T8105",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T6) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T6) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 1 (RM Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR01 (T6) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV02_T8104",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T7) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T7) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 2 (RM Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR01 (T7) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV02_T8105",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T8) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T8) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 2 (RM Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR01 (T8) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV01_T8101",
+    "description-vn": "Nhiệt độ cuộn dây 1 của động cơ truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T9) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 1 của động cơ truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T9) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 1 Temperature of Drive 1 (RM Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR01 (T9) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV01_T8102",
+    "description-vn": "Nhiệt độ cuộn dây 2 của động cơ truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T10) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 2 của động cơ truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T10) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 2 Temperature of Drive 1 (RM Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR01 (T10) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV01_T8103",
+    "description-vn": "Nhiệt độ cuộn dây 3 của động cơ truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T11) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 3 của động cơ truyền động 1 (RM Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T11) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 3 Temperature of Drive 1 (RM Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR01 (T11) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV02_T8101",
+    "description-vn": "Nhiệt độ cuộn dây 1 của động cơ truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T12) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 1 của động cơ truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T12) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 1 Temperature of Drive 2 (RM Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR01 (T12) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV02_T8102",
+    "description-vn": "Nhiệt độ cuộn dây 2 của động cơ truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T13) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 2 của động cơ truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T13) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 2 Temperature of Drive 2 (RM Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR01 (T13) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR01DRV02_T8103",
+    "description-vn": "Nhiệt độ cuộn dây 3 của động cơ truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T14) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 3 của động cơ truyền động 2 (RM Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR01 (T14) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 3 Temperature of Drive 2 (RM Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR01 (T14) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02BEA01_T8101",
+    "description-vn": "Nhiệt độ ổ đỡ 1 của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T1) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 1 của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T1) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 1 Temperature of Drive 1 (Secondary Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR02 (T1) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02BEA01_T8102",
+    "description-vn": "Nhiệt độ ổ đỡ 2 của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T2) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 2 của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T2) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 2 Temperature of Drive 1 (Secondary Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR02 (T2) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02BEA02_T8101",
+    "description-vn": "Nhiệt độ ổ đỡ 1 của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T3) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 1 của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T3) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 1 Temperature of Drive 2 (Secondary Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR02 (T3) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02BEA02_T8102",
+    "description-vn": "Nhiệt độ ổ đỡ 2 của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T4) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ 2 của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T4) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Bearing 2 Temperature of Drive 2 (Secondary Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR02 (T4) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV01_T8104",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T5) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T5) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 1 (Secondary Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR02 (T5) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV01_T8105",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T6) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T6) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 1 (Secondary Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR02 (T6) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV02_T8104",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T7) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T7) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 2 (Secondary Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR02 (T7) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV02_T8105",
+    "description-vn": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T8) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ ổ đỡ động cơ của truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T8) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Bearing Temperature of Drive 2 (Secondary Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR02 (T8) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV01_T8101",
+    "description-vn": "Nhiệt độ cuộn dây 1 của động cơ truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T9) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 1 của động cơ truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T9) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 1 Temperature of Drive 1 (Secondary Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR02 (T9) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV01_T8102",
+    "description-vn": "Nhiệt độ cuộn dây 2 của động cơ truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T10) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 2 của động cơ truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T10) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 2 Temperature of Drive 1 (Secondary Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR02 (T10) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV01_T8103",
+    "description-vn": "Nhiệt độ cuộn dây 3 của động cơ truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T11) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 3 của động cơ truyền động 1 (Secondary Crusher Drive 1) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T11) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 3 Temperature of Drive 1 (Secondary Crusher Drive 1) for PRIMARY CRUSHER 2D1.CR02 (T11) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV02_T8101",
+    "description-vn": "Nhiệt độ cuộn dây 1 của động cơ truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T12) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 1 của động cơ truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T12) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 1 Temperature of Drive 2 (Secondary Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR02 (T12) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV02_T8102",
+    "description-vn": "Nhiệt độ cuộn dây 2 của động cơ truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T13) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 2 của động cơ truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T13) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 2 Temperature of Drive 2 (Secondary Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR02 (T13) at the raw material preparation segment",
+    "type": "float"
+  },
+  {
+    "tag": "2D1CR02DRV02_T8103",
+    "description-vn": "Nhiệt độ cuộn dây 3 của động cơ truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T14) tại phân đoạn chuẩn bị nguyên liệu",
+    "description-xhq": "Nhiệt độ cuộn dây 3 của động cơ truyền động 2 (Secondary Crusher Drive 2) thuộc CỐI ĐẬP SƠ CẤP 2D1.CR02 (T14) trên xhq tại phân đoạn chuẩn bị nguyên liệu",
+    "description-en": "Motor Winding 3 Temperature of Drive 2 (Secondary Crusher Drive 2) for PRIMARY CRUSHER 2D1.CR02 (T14) at the raw material preparation segment",
+    "type": "float"
+  }
+]

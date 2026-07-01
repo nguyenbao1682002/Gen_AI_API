@@ -1,0 +1,1 @@
+{"sensor_ids": ["4G1GA01XAC01_O2_1min", "4G1GA01XAC01_O2_AVG"], "start_time": "2025-03-15T00:00:00", "end_time": "2025-03-15T00:30:00", "aggregation": "raw", "factory_id": "F_xGc676J6PH"}

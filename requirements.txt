@@ -1,0 +1,10 @@
+fastapi 
+uvicorn
+python-dotenv
+fpdf2
+thefuzz
+python-multipart
+pdf2image
+paddleocr
+sentence-transformers
+boto3
